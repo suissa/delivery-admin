@@ -1,0 +1,9 @@
+'use strict';
+
+
+let debug = require('debug')('delivery-admin:controller:customer'),
+    app   = require('../app');
+
+app.listen(app.get('port'), function() {
+  debug('app is up');
+});

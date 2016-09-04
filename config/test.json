@@ -1,0 +1,9 @@
+{
+  "mongo": {
+    "username": "",
+    "password": "",
+    "host": "localhost",
+    "port": 27017,
+    "database": "delivery-admin-test"
+  }
+}

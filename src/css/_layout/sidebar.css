@@ -1,0 +1,29 @@
+.logo {
+  padding-top: 15px;
+  text-align: center;
+  display: block;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: relative;
+  float: left;
+  margin-right: 20px;
+  background-color: #722872;
+}
+
+.sidebar-nav {
+  margin-top: 20px;
+}
+
+.sidebar-link {
+  display: block;
+  font-size: 0.9em;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.sidebar-link:hover {
+  color: #fff;
+}

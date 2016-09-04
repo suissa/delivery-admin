@@ -1,0 +1,37 @@
+<form name="vm.searchCustomerForm" role="search" ng-submit="vm.searchCustomer()" novalidate>
+    <div class="input-group">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Telefone, email ou nome"
+          autocomplete="off"
+          name="search"
+          ng-model="vm.user"
+          class="form-control">
+
+        <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit" ng-disabled="vm.searchCustomerForm.$invalid">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+<button class="btn btn-secondary" ng-click="vm.goTo('app.customer')">+ Novo</button>
+
+<table class="table">
+  <thead>
+    <tr>
+      <td>Nome</td>
+      <td>Telefones</td>
+      <td>Email</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="customer in vm.data">
+      <td>{{ customer.givenName }}</td>
+      <td>{{ customer.telephones }}</td>
+      <td>{{ customer.email }}</td>
+    </tr>
+  </tbody>
+</table>

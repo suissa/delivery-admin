@@ -1,0 +1,27 @@
+<a href="#/dashboard"
+  ui-sref="app.dashboard"
+  class="logo">
+  <img src="http://strudelfolhadinho.com.br/images/logo-strudel-folhadinho.png" width="170px" />
+</a>
+
+<ul class="sidebar-nav">
+  <li class="sidebar-item">
+    <a href="#/customers"
+      ui-sref="app.customers"
+      ng-class="{'is-active': state.current.name.includes('app.customers')}"
+      class="sidebar-link">Clientes</a>
+  </li>
+  <li class="sidebar-item">
+    <a href="#/products"
+      ui-sref="app.products"
+      ng-class="{'is-active': state.current.name.includes('app.products')}"
+      class="sidebar-link">Produtos</a>
+  </li>
+  <li class="sidebar-item">
+    <a href="#/orders"
+      ui-sref="app.orders"
+      ng-class="{'is-active': state.current.name.includes('app.orders')}"
+      class="sidebar-link">Pedidos</a>
+  </li>
+</ul><!-- .sidebar-nav -->
+

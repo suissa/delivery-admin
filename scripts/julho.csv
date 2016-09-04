@@ -1,0 +1,305 @@
+Data da Venda,Dia da Semana,Nome,Endereço,Bairro,Tel,Outro,Qtd,Total do Pedido,Desconto Comercial,Frete,Mini strudel Qtd.,Mini strudel R$,Maça Qtd,Maça R$,Chocolate Qtd.,Chocolate R$,Palmito Qtd.,Palmito R$,Frango Qtd.,Frango R$,Banana Qtd,Banana R$, Carne Qtd., Carne R$, Carne c/ Pimenta Qtd., Carne c/ Pimenta R$,Palmito Qtd.,Palmito R$, Frango Qtd., Frango R$,Calabresa Qtd.,Calabresa R$, Carne Seca Qtd., Carne Seca R$, Bacalhau Qtd.,Bacalhau R$,Queijo Qtd.,Queijo R$,Doce Qtd.,Doce R$,Coca Cola Qtd,Coca Cola R$,Forma de Pagamento,Data de Recebimento,Frete,Taxa de Desconto,Centro de Custo,mês
+7-May,Sáb.,Arlindo,,Santos,,Chefe Telefonica,1,65,5,,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,7-May,Carlos,0,Folhadinho,Maio
+7-May,Sáb.,Érika,"Rua Albertina Vieira das Silva Gordo, 212/ 32 bl 2",Vila Aurora,,,2,130,25,0,,,,,1,70,,,1,85,,,,,,,,,,,,,,,,,,,,,,,Cartão de Débito,9-May,Carlos,3.11,Folhadinho,Maio
+7-May,Sáb.,Guilherme,"Rua Teodorico de Almeida Bessa, 90",Jabaquara,,,4,140,25,,,,1,70,,,,,1,85,,,2,10,,,,,,,,,,,,,,,,,,,Cartão de Débito,,Carlos,3.35,Ambos,Maio
+7-May,Sáb.,Marly,"Rua Agente Gomes, 258/ 32",JD São Paulo,,,1,65,5,,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,7-May,Carlos,0,Folhadinho,Maio
+7-May,Sáb.,Nely Moreira,"Rua Tomás Bezzi, 103",Vila Prudente,,,1,65,5,,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,7-May,Carlos,0,Folhadinho,Maio
+7-May,Sáb.,Roberta,"Rua Estrada do Lutero, 65 casa 528",Cotia Cond. Paisagem Renoir - Residencial Viva a Vida,94308-0803/ 3605-1958,,11,100,25,,10,40,,,,,,,1,85,,,,,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Carlos,3.19,Folhadinho,Maio
+8-May,Dom.,Estér,"Rua Tamandaré, 776/ 75B",Liberdade,,CEP 01525-000,1,70,,,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,8-May,Carlos,0,Folhadinho,Maio
+8-May,Dom.,Pizzaria Cristal,,,,,3,180,,0,,,3,180,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Depósito,8-May,Carlos,0,Folhadinho,Maio
+8-May,Dom.,Sydney,"Rua São Lourenzo, 250 casa 1",Vila Prudente,,,1,55,15,,,,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,8-May,Carlos,0,Folhadinho,Maio
+10-May,Sáb.,Ivani,"Rua Pedro Ferrer, 40/ 82B",PQ IPÊ,9761-5368,,6,37,,3,,,,,,,,,,,,,2,10,,,,,,,2,10,,,2,14,,,,,,,Dinheiro,10-May,Edson,0,Te Gusta,Maio
+10-May,Qui.,Lidiane Amaury (Pizzaria Rústica),,Bonfliglioli,96726-3775,,4,20,,0,,,,,,,,,,,,,2,10,,,,,1,5,,,1,5,,,,,,,,,Dinheiro,10-May,Retirada no local,0,Te Gusta,Maio
+16-May,Seg.,Sandra,"Rua Dr. Manoel de Paiva Ramos, 138/ 22D",Vila Adalgisa,3719-1964,,10,60,,8,,,,,,,,,,,,,4,20,,,,,,,4,20,2,12,,,,,,,,,Cartão de Crédito,,Edson,1.91,Te Gusta,Maio
+17-May,Ter.,Thainara,"Av. Franz Voegeli, 501 / 42",Continental/ Osasco,99692-6197,,6,35,,5,,,,,,,,,,,,,,,3,15,2,10,1,5,,,,,,,,,,,,,Cartão de Débito,,Carlos,0.84,Te Gusta,Maio
+21-May,Sáb.,Alda,"Rua General Syzeno Sarmento, 381 / C4/ 203",JD Esmeralda,97389-1517,,7,37,,0,,,,,,,,,,,,,2,10,,,,,2,10,2,10,,,1,7,,,,,,,Dinheiro,21-May,Carlos,0,Te Gusta,Maio
+21-May,Sáb.,Claudia,"Rua do Forno, 126/ 31",JD Bom Refúgio,,,12,65,,5,,,,,,,,,,,,,3,15,1,5,4,20,,,4,20,,,,,,,,,,,Cartão de Crédito,4-Jun,Carlos,2.07,Te Gusta,Maio
+21-May,Sáb.,Norma,"Rua Acylino Ventino de Moraes, 261",,98402-4365,,10,50,,0,,,,,,,,,,,,,2,10,,,4,20,,,4,20,,,,,,,,,,,Dinheiro,21-May,Retirada no local,0,Te Gusta,Maio
+22-May,Dom.,Carla,,,4385-5485,,11,55,,,,,,,,,,,,,,,4,20,4,20,,,2,10,1,5,,,,,,,,,,,Dinheiro,22-May,Retirada no local,0,Te Gusta,Maio
+22-May,Dom.,Evelin,"Av. Joaquim de Santana, 114/ 11",JD Arpoador,98236-9889,,16,89,,0,,,,,,,,,,,,,5,25,,,,,5,25,,,3,18,3,21,,,,,,,Cartão de Crédito,5-Jun,Carlos,2.84,Te Gusta,Maio
+22-May,Dom.,Felipe,"Rua Berlioz, 440",Vila Ida,99636-3588,,2,130,,5,,,1,70,,,,,,,1,55,,,,,,,,,,,,,,,,,,,,,Cartão de Débito,23-May,Carlos,3.11,Ambos,Maio
+22-May,Dom.,Ivan,"Rua Inácio Manoel Alvares, 460 /62A",JD Ester,98261-0605,,11,57,,,,,,,,,,,,,,,5,25,2,10,1,5,1,5,1,5,,,,,,,,,1,7,Cartão de Crédito,5-Jun,Retirada no local,1.82,Te Gusta,Maio
+24-May,Ter.,Ivan,"Rua Inácio Manoel Alvares, 460 /62A",JD Ester,98261-0605,,10,62,,0,,,,,,,,,,,,,2,10,,,,,,,1,5,2,12,5,35,,,,,,,Cartão de Crédito,7-Jun,Carlos,1.98,Te Gusta,Maio
+25-May,Qua.,Elaine,"Rua Guanandi, 26",Rio Pequeno,98536-5631,,7,40,,3,,,,,,,,,,,,,2,10,,,1,5,1,5,1,5,2,12,,,,,,,,,Cartão de Débito,27-May,Edson,0.96,Te Gusta,Maio
+25-May,Qua.,Estela,"Rua João Dário, 151",,98164-9642,,8,45,,5,,,,,,,,,,,,,8,40,,,,,,,,,,,,,,,,,,,Dinheiro,25-May,Edson,0,Te Gusta,Maio
+25-May,Qua.,Karina,Telefonica,,,,4,20,,0,,,,,,,,,,,,,2,10,,,,,,,2,10,,,,,,,,,,,Dinheiro,25-May,Carlos,0,Te Gusta,Maio
+25-May,Qua.,Pizzaria Cristal,"Rua Professor Artur Ramos, 551",Cidade Jardim,,,3,180,,,,,3,180,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Depósito,25-May,Edson,0,Folhadinho,Maio
+25-May,Qua.,Thiago,,,96950-2177,,7,40,,,,,,,,,,,,,,,,,1,5,1,5,2,10,,,1,6,1,7,,,,,1,7,Dinheiro,25-May,Retirada no local,0,Te Gusta,Maio
+25-May,Qua.,Vanessa,"Rua Andorinha Lopes, 253/ Casa 8",JD da Glória,96434-3322,,12,74,,10,,,,,,,,,,,,,,,8,40,,,,,,,4,24,,,,,,,,,Cartão de Crédito,8-Jun,Edson,2.36,Te Gusta,Maio
+26-May,Qui.,Bruna,,,97389-0483,,19,100,1,0,,,,,,,,,,,,,3,15,4,20,,,6,30,2,10,2,12,2,14,,,,,,,Cartão de Débito,27-May,Retirada no local,2.39,Te Gusta,Maio
+26-May,Qui.,Camila,"Av. Intercontinental, 1105",Taboão,96814-8170,,7,40,,5,,,,,,,,,,,,,3,15,4,20,,,,,,,,,,,,,,,,,Dinheiro,26-May,Edson,0,Te Gusta,Maio
+26-May,Qui.,Davi,"Rua Inácio Manoel Alvares, 1.000 /45 b2",,95257-6394,,12,70,,5,,,,,,,,,,,,,3,15,,,,,3,15,2,10,3,18,1,7,,,,,,,Cartão de Débito,27-May,Edson,1.67,Te Gusta,Maio
+26-May,Qui.,Marcelo,"Rua João de Sá, 201",Metarlúgico/ Osasco,3691-1787,,12,83,,10,,,,,,,,,,,,,4,20,,,,,,,,,3,18,5,35,,,,,,,Cartão de Débito,27-May,Edson,1.98,Te Gusta,Maio
+26-May,Qui.,Otacílio/ Ivanilde,,,3756-3385,3782-0690,5,28,,0,,,,,,,,,,,,,2,10,1,5,,,,,,,1,6,1,7,,,,,,,Dinheiro,26-May,Retirada no local,0,Te Gusta,Maio
+26-May,Qui.,Sheila,"Rua Chile, 158",JD America/ Taboão,96769-6858,CEP 06756-340,7,43,,5,,,,,,,,,,,,,3,15,,,,,,,2,10,1,6,,,,,,,1,7,Cartão de Crédito,9-Jun,Edson,1.37,Te Gusta,Maio
+26-May,Qui.,Tokio,"Rua Argentina, 478",Vila Santa Isabel,99485-1068,CEP 06756-330,14,75,,5,,,,,,,,,,,,,4,20,4,20,,,4,20,2,10,,,,,,,,,,,Cartão de Débito,27-May,Edson,1.79,Te Gusta,Maio
+27-May,Sex.,Carla,"Rua Ester Samara, 111/ 43A",JD Claudia,99293-5844,,12,68,,5,,,,,,,,,,,,,5,25,,,,,4,20,,,3,18,,,,,,,,,Cartão de Crédito,10-Jun,Edson,2.17,Te Gusta,Maio
+27-May,Sex.,Cida,"Av. Eng. Eitor Antonio Eiras Garcia, 4455",,3892-2372,9723-3643,20,80,,0,20,80,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,27-May,Carlos,0,Folhadinho,Maio
+27-May,Sex.,Dona Marli,"Rua Helmuth Strobel, 12",PQ Pinheiros,98272-0065,,4,31,,5,,,,,,,,,,,,,,,,,,,,,,,2,12,2,14,,,,,,,Dinheiro,27-May,Edson,0,Te Gusta,Maio
+27-May,Sex.,Rosália,"Rua Dr. José Benedito Viana de Moraes, 265/ 83",Vila São Francisco,2369-1082,,14,80,,2,,,,,,,,,,,,,8,40,,,,,,,,,4,24,2,14,,,,,,,Cartão de Débito,30-May,Edson,1.91,Te Gusta,Maio
+27-May,Sex.,Samanta,"Rua Basilio da Silva, 209/ 62D",JD Monte Alegre,3783-1115,,5,32,,5,,,,,,,,,,,,,2,10,,,,,2,10,,,,,1,7,,,,,,,Dinheiro,27-May,Edson,0,Te Gusta,Maio
+27-May,Sex.,Stefano,"Rod. Raposo Tavares, 8.760/ 43 Bl. 2",Coahb Raposo,2649-2754,,4,26,,5,,,,,,,,,,,,,1,5,,,,,2,10,,,1,6,,,,,,,,,Cartão de Débito,30-May,Edson,0.62,Te Gusta,Maio
+28-May,Sáb.,Carla,"Rua Nicole Espinele, 10",PQ IPÊ,3788-2005,,15,78,,3,,,,,,,,,,,,,5,25,5,25,,,5,25,,,,,,,,,,,,,Dinheiro,28-May,Edson,0,Te Gusta,Maio
+28-May,Sáb.,Eliana,,,3714-1473,,11,59,,0,,,,,,,,,,,,,1,5,6,30,,,,,2,10,,,2,14,,,,,,,Cartão de Débito,30-May,Retirada no local,1.41,Te Gusta,Maio
+28-May,Sáb.,Paula Cristina,"Rua General Asdrubal da Cunha, 996",JD Paulo VI,96591-3225,,10,53,,3,,,,,,,,,,,,,9,45,,,1,5,,,,,,,,,,,,,,,Cartão de Crédito,11-Jun,Edson,1.69,Te Gusta,Maio
+28-May,Sáb.,Sara,"Rua Ramon Bayeu, 151",Vila nova alba,3768-8866,,10,61,,5,,,,,,,,,,,,,2,10,2,10,,,2,10,,,2,12,2,14,,,,,,,Dinheiro,28-May,Edson,0,Te Gusta,Maio
+28-May,Sáb.,Sônia,"Rua prospero cesarino paoliello, 26",Vila Gomes,3461-5308,,6,38,,5,,,,,,,,,,,,,1,5,,,2,10,1,5,,,1,6,1,7,,,,,,,Dinheiro,28-May,Edson,0,Te Gusta,Maio
+28-May,Sáb.,Vânia,"Rua Pe. Samuel Friz, 45",PQ IPÊ,98507-3465,,8,45,,5,,,,,,,,,,,,,5,25,,,1,5,2,10,,,,,,,,,,,,,Cartão de Crédito,11-Jun,Edson,1.44,Te Gusta,Maio
+31-May,Ter.,Cibeli,"Rua Cesário Vendramini, 1",Vila Adalgisa,2835-6977,98138-4262,8,52,,10,,,,,,,,,,,,,4,20,,,2,10,,,,,2,12,,,,,,,,,Cartão de Débito,1-Jun,Edson,1.24,Te Gusta,Maio
+31-May,Ter.,Elizete,"Rod. Raposo Tavares, 8.760/ 127 Bl. 7",,3082-6202,,5,33,,5,,,,,,,,,,,,,,,1,5,1,5,,,1,5,1,6,,,,,,,1,7,Dinheiro,31-May,Edson,0,Te Gusta,Maio
+1-Jun,Qua.,Cássia,"Rua José Antonio Greco, 136",Taboão,4701-0046,,12,68,,5,,,,,,,,,,,,,6,30,,,3,15,,,,,3,18,,,,,,,,,Dinheiro,1-Jun,Carlos,0,Te Gusta,Junho
+1-Jun,Qua.,Cecília,"Rua Eng. Isac Milder, 342/ 41",Vila Morumbi,98109-9997,,20,100,,0,,,,,,,,,,,,,20,100,,,,,,,,,,,,,,,,,,,Depósito,6-Jun,Carlos,0,Te Gusta,Junho
+1-Jun,Qua.,Gabriel,"Av. General Asdrubal da Cunha, 1344/ Apto 1",JD Arpoador,98025-9808,,5,25,,0,,,,,,,,,,,,,2,10,2,10,,,1,5,,,,,,,,,,,,,Dinheiro,1-Jun,Retirada no local,0.8,Te Gusta,Junho
+1-Jun,Qua.,Geni,"Rua Eng Pedro Garcin, 190 casa 42",JD Ester,97196-5096,,5,26,,0,,,,,,,,,,,,,,,3,15,,,,,1,5,1,6,,,,,,,,,Cartão de Débito,2-Jun,Carlos,0.832,Te Gusta,Junho
+1-Jun,Qua.,Manoel/ Fernanda,"Rua José de Andra de Marciel, 128",JD Ester,971764-4087,,5,27,,5,,,,,,,,,,,,,1,5,,,,,,,1,5,3,12,,,,,,,,,Dinheiro,1-Jun,Carlos,0.864,Te Gusta,Junho
+1-Jun,Qua.,Marcelo,,,3783-5453,,8,40,,0,,,,,,,,,,,,,3,15,,,,,3,15,2,10,,,,,,,,,,,Dinheiro,1-Jun,Retirada no local,1.28,Te Gusta,Junho
+1-Jun,Qua.,Roberta,"Rua General Asdrubal da Cunha, 1375 Bloco 15",JD Arpoador,96364-4941,,6,34,,0,,,,,,,,,,,,,,,,,1,5,1,5,1,5,2,12,1,7,,,,,,,Cartão de Crédito,15-Jun,Carlos, 1.09 ,Te Gusta,Junho
+1-Jun,Qua.,Vanderley,"Rua linda Abud Siufi, 213",JD Maria Luiza,99126-7613,,12,61,,,,,,,,,,,,,,,2,10,2,10,2,10,2,10,2,10,2,11,,,,,,,,,Dinheiro,1-Jun,Retirada no local,1.952,Te Gusta,Junho
+1-Jun,Qua.,Viviane,"Rua Otávio Modolin, 163",JD Rosa Maria,3783-1743,,8,45,,5,,,,,,,,,,,,,5,25,,,,,3,15,,,,,,,,,,,,,Dinheiro,1-Jun,Carlos,1.44,Te Gusta,Junho
+2-Jun,Qui.,Cecília,"Rua Eng. Isac Milder, 342/ 41",,98109-9997,,40,210,,10,,,,,,,,,,,,,40,200,,,,,,,,,,,,,,,,,,,Cartão de Crédito,16-Jun,Edson,6.72,Te Gusta,Junho
+2-Jun,Qui.,Cristiane,"Rua Deolinda Rodrigues, 171/ 24B",,99264-5444,,6,35,,5,,,,,,,,,,,,,2,10,,,2,10,1,5,1,5,,,,,,,,,,,Cartão de Débito,3-Jun,Edson,1.12,Te Gusta,Junho
+2-Jun,Qui.,Cristina,"Rua Desenb Dalmo do Valle Noqueira, 65/ 11",,98369-2943,,15,80,,3,,,,,,,,,,,,,6,30,6,30,2,10,,,,,,,1,7,,,,,,,Cartão de Crédito,16-Jun,Edson,2.56,Te Gusta,Junho
+2-Jun,Qui.,Eliane,"Rua Dr. Cariolano pompeu Elizer, 68",JD Sarah,97474-2447,,14,81,,5,,,,,,,,,,,,,,,,,,,8,40,2,10,2,12,2,14,,,,,,,Cheque,2-Jun,Carlos,2.592,Te Gusta,Junho
+2-Jun,Qui.,Maria Aparecida,"Rua Itaberaba, 1323/ 16",,98398-5496,,17,164,,10,,,1,70,,,,,,,,,4,20,,,,,4,20,,,4,24,4,20,,,,,,,Cartão de Crédito,,Carlos,0,Te Gusta,Junho
+2-Jun,Qui.,Neusa,"Rua Odair Pimentel, 255",,3683-501,,9,55,,10,,,,,,,,,,,,,6,30,,,,,3,15,,,,,,,,,,,,,Cartão de Crédito,,Carlos,0,Te Gusta,Junho
+2-Jun,Qui.,Pizzaria Cristal,,,,,3,190,,10,,,3,180,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,2-Jun,Edson,6.08,Folhadinho,Junho
+2-Jun,Qui.,Regina,,,,,6,33,,,,,,,,,,,,,,,1,5,,,,,2,10,,,3,18,,,,,,,,,Dinheiro,3-Jun,Retirada no local,0,Te Gusta,Junho
+2-Jun,Qui.,Richard,"Rua Guido Caloi, 1000 / Terreo Bl. 9",,,,5,275,,0,,,5,275,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,2-Jun,Edson,8.8,Folhadinho,Junho
+3-Jun,Sex.,Andreia,,,99169-9800,,16,84,,,,,,,,,,,,,,,4,20,2,10,4,20,2,10,,,4,24,,,,,,,,,Dinheiro,3-Jun,Retirada no local,0,Te Gusta,Junho
+3-Jun,Sex.,Diego,"Rua Pires Brados, 8",,,,12,65,,5,,,,,,,,,,,,,4,20,2,10,,,3,15,3,15,,,,,,,,,,,Dinheiro,3-Jun,Edson,2.08,Te Gusta,Junho
+3-Jun,Sex.,Eliana,"Rua Eng. Carreira, 17/ 23",Peri Peri,,,16,91,,5,,,,,,,,,,,,,2,10,2,10,4,20,2,10,2,10,2,12,2,14,,,,,,,Cartão de Crédito,17-Jun,Edson,2.912,Te Gusta,Junho
+3-Jun,Sex.,Janete,"Rua José de Almeida Vargas, 162",Jaguaribe,3609-6914,,12,70,,10,,,,,,,,,,,,,6,30,,,6,30,,,,,,,,,,,,,,,Cartão de Débito,6-Jun,Edson,2.24,Te Gusta,Junho
+3-Jun,Sex.,Luciana,"Rua Salene, 23",,3654-1101,,12,72,,10,,,,,,,,,,,,,5,25,,,1,5,2,10,3,15,,,1,7,,,,,,,Dinheiro,3-Jun,Edson,2.304,Te Gusta,Junho
+3-Jun,Sex.,Marcelo,,,,,6,30,,,,,,,,,,,,,,,2,10,2,10,,,2,10,,,,,,,,,,,,,Dinheiro,3-Jun,Retirada no local,0,Te Gusta,Junho
+3-Jun,Sex.,Milene,"Mairarê, 103 Cond. Jequitiba Colado",,,,6,33,,3,,,,,,,,,,,,,1,5,1,5,1,5,2,10,1,5,,,,,,,,,,,Cartão de Crédito,17-Jun,Edson,1.056,Te Gusta,Junho
+3-Jun,Sex.,Renata,"Rua Deolinda Rodrigues, 290",,,,6,35,,5,,,,,,,,,,,,,3,15,1,5,,,1,5,1,5,,,,,,,,,,,Cartão de Débito,3-Jun,Edson,1.12,Te Gusta,Junho
+3-Jun,Sex.,Rita,"av. Diogo de Azevedo, 331/ Casa 22",JD Ester,,97152-6665,17,95,,4,,,,,,,,,,,,,3,15,3,15,3,15,2,10,3,15,,,3,21,,,,,,,Cartão de Crédito,3-Jun,Edson,3.04,Te Gusta,Junho
+3-Jun,Sex.,Rodrigo,"Av. Dr. Kenkiti Shimomoto, 514",City Bussocaba,,,15,82,,5,,,,,,,,,,,,,6,30,5,25,,,2,10,,,2,12,,,,,,,,,Cartão de Crédito,17-Jun,Edson,2.624,Te Gusta,Junho
+3-Jun,Sex.,Sheila,"Rua Chile, 158",JD America/ Taboão,96769-6858,,10,55,,,,,,,,,,,,,,,3,15,,,2,10,,,2,10,1,6,,,,,,,2,14,Dinheiro,3-Jun,Retirada no local,0,Te Gusta,Junho
+3-Jun,Sex.,Tainara,"Av. Franz Voegeli, 501 / 42",,99692-9197,,8,46,,5,,,,,,,,,,,,,3,15,,,3,15,1,5,,,1,6,,,,,,,,,Cartão de Débito,6-Jun,Edson,1.472,Te Gusta,Junho
+4-Jun,Sáb.,Ana Rodrigues,"Rua Haige Boghos rataliam, 207",,,,15,88,,5,,,,,,,,,,,,,2,10,,,2,10,5,25,,,4,24,2,14,,,,,,,Cartão de Débito,6-Jun,Edson,2.816,Te Gusta,Junho
+4-Jun,Sáb.,Diego,"Rua Dominique Lagru, 71/ 44",,,,8,46,,5,,,,,,,,,,,,,2,10,,,,,3,15,2,10,1,6,,,,,,,,,Cartão de Débito,6-Jun,Edson,1.472,Te Gusta,Junho
+4-Jun,Sáb.,Lilia,"Rua Bangare, 1º Andar",,98197-7870,USP,8,49,,5,,,,,,,,,,,,,4,20,,,,,1,5,,,2,12,1,7,,,,,,,Cartão de Débito,6-Jun,Edson,1.568,Te Gusta,Junho
+4-Jun,Sáb.,Valéria,"Av. Paulo Aires, 75/ 24B",,4786-1783,,9,53,,5,,,,,,,,,,,,,2,10,,,,,1,5,4,20,1,6,1,7,,,,,,,Cartão de Débito,6-Jun,Edson,1.696,Te Gusta,Junho
+5-Jun,Dom.,Jô,"Rua General Asdrubal da Cunha, 1875",JD Arpoador,99439-1209,,4,20,4,,,,,,,,,,,,,,,,,,,,1,5,,,2,12,1,7,,,,,,,Cartão de Débito,6-Jun,Retirada no local,0.64,Te Gusta,Junho
+5-Jun,Dom.,Regina,"Rua Capepuxis, 184",Alto de Pinheiros,3023-0734,,1,70,,,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,5-Jun,Carlos,2.24,Folhadinho,Junho
+5-Jun,Dom.,Vânia,"Av. General Asdrubal da Cunha, 575",JD Arpoador,99666-7125,,5,33,,6,,,,,,,,,,,,,2,10,,,1,5,,,,,2,12,,,,,,,,,Cartão de Débito,6-Jun,Valdir,1.056,Te Gusta,Junho
+6-Jun,Seg.,Felipe,,,,,10,50,,,,,,,,,,,,,,,10,50,,,,,,,,,,,,,,,,,,,Dinheiro,6-Jun,Retirada no local,1.6,Te Gusta,Junho
+7-Jun,Ter.,Claudia,"Rua Basiléia, 134/ casa 435",Granja Viana,99657-9222,,16,95,,5,,,,,,,,,,,,,5,25,,,1,5,3,15,,,4,24,3,21,,,,,,,Cartão de Crédito,21-Jun,Edson,3.04,Te Gusta,Junho
+7-Jun,Ter.,Cristiane,"Rua Bernardo dos Santos, 10/ 64 Ômega",,,,6,36,,5,1,4,,,,,,,,,,,1,5,,,2,10,,,,,2,12,,,,,,,,,Cartão de Crédito,21-Jun,Edson,1.152,Te Gusta,Junho
+7-Jun,Ter.,Daniela,"Rua Ezequias Bezerra da Rocha, 45",,98933-1185,,10,55,,5,,,,,,,,,,,,,5,25,,,1,5,3,15,1,5,,,,,,,,,,,Dinheiro,7-Jun,Edson,1.76,Te Gusta,Junho
+7-Jun,Ter.,Joice,"Rua Amoroso Costa, 404",,95840-0584,CEP 02045-040,1,80,,10,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,7-Jun,Valdir,2.56,Folhadinho,Junho
+7-Jun,Ter.,Lygia,"Rua Eng. José Amadei, 35 casa 3",JD Arpoador,98200-0812,,5,32,,5,1,4,,,,,,,,,,,1,5,,,,,,,1,5,1,6,1,7,,,,,,,Cartão de Débito,8-Jun,Edson,1.024,Te Gusta,Junho
+7-Jun,Ter.,Pinheiro,"Rua Parajú, 68",Presidente  Altino,3719-3682,,11,62,,5,,,,,,,,,,,,,,,,,3,15,4,20,,,,,1,10,,,2,5,1,7,Cartão de Crédito,21-Jun,Carlos,1.984,Te Gusta,Junho
+7-Jun,Ter.,Sarah Lopes,"Rua Martim rodrigues, 68",,3731-4222,,12,62,,2,,,,,,,,,,,,,4,20,,,3,15,4,20,1,5,,,,,,,,,,,Cartão de Crédito,21-Jun,Edson,1.984,Te Gusta,Junho
+8-Jun,Qua.,Ana,"Rua Giuseppe Ferrari, 3",JD Umuarama,,,6,37,,5,,,,,,,,,,,,,2,10,,,,,2,10,,,2,12,,,,,,,,,Visa electron,9-Jun,Edson,1.184,Te Gusta,Junho
+8-Jun,Qua.,Fernando,"Av. São Çuiz, 532",,4702-8409,,4,30,,8,,,,,,,,,,,,,1,5,,,1,5,,,,,2,12,,,,,,,,,Dinheiro,8-Jun,Valdir,0.96,Te Gusta,Junho
+8-Jun,Qua.,Vanessa,"Rua Bernardo dos Santos, 10/ 12 Gama",,98957-6494,,9,45,,4,4,16,,,,,,,,,,,5,25,,,,,,,,,,,,,,,,,,,Dinheiro,8-Jun,Edson,1.44,Te Gusta,Junho
+9-Jun,Qui.,Gabriela,"Rua Bernardo dos Santos, 10 / 131 Beta",,,,5,30,,5,,,,,,,,,,,,,,,,,5,25,,,,,,,,,,,,,,,MC maestro,10-Jun,Edson,0.96,Te Gusta,Junho
+9-Jun,Qui.,Giulio,"Rua Gabirobeira, 144",Cidade das Flores,,,9,50,,7,2,8,,,,,,,,,,,,,4,20,,,2,10,1,5,,,,,,,,,,,Visa electron,10-Jun,Edson,1.6,Te Gusta,Junho
+9-Jun,Qui.,Marta,"Av. João Paulo Ablas, 1764/ 505B",Granja Viana,4617-3162,,12,70,,10,,,,,,,,,,,,,12,60,,,,,,,,,,,,,,,,,,,Cartão de Débito,10-Jun,Edson,2.24,Te Gusta,Junho
+9-Jun,Qui.,Nestor,"Rua Nicole Ciola, 286",,98059-6194,,5,27,,2,,,,,,,,,,,,,2,10,3,15,,,,,,,,,,,,,,,,,Dinheiro,9-Jun,Valdir,0.864,Te Gusta,Junho
+9-Jun,Qui.,Samanta,"Rua Bazílio da Silva, 209 / 62D",,,,5,25,,5,,,,,,,,,,,,,1,5,,,,,1,5,,,,,,,3,10,,,,,Dinheiro,9-Jun,Edson,0.8,Te Gusta,Junho
+10-Jun,Sex.,Alfredo,,,98951-8414,,13,40,,,5,20,,,,,,,,,,,8,40,,,,,,,,,,,,,,,,,,,Dinheiro,10-Jun,Retirada no local,1.28,Te Gusta,Junho
+10-Jun,Sex.,Andrea,,Taboão,99907-1557,4787-3678,11,59,,,,,,,,,,,,,,,3,15,,,3,15,1,5,,,4,24,,,,,,,,,MC maestro,13-Jun,Retirada no local,1.888,Te Gusta,Junho
+10-Jun,Sex.,Andreia,"Rua Bernardo dos Santos, 10/ 202 ômega",,,,7,43,,5,,,,,,,,,,,,,2,10,2,10,,,,,1,5,1,6,1,7,,,,,,,Dinheiro,10-Jun,Edson,1.376,Te Gusta,Junho
+10-Jun,Sex.,Carlos,"Raposo Tavares, 3175/ 114 Torre D",,,,4,29,,5,,,,,,,,,,,,,,,,,,,,,2,10,,,2,14,,,,,,,Dinheiro,10-Jun,Edson,0.928,Te Gusta,Junho
+10-Jun,Sex.,Fernanda,"Av.Lidia Tamas, 385",Osasco,3692-2271,,10,61,,10,,,,,,,,,,,,,2,10,3,15,1,5,,,3,15,1,6,,,,,,,,,Cartão de Crédito,24-Jun,Edson,1.952,Te Gusta,Junho
+10-Jun,Sex.,Gabriela,"Rua Estados Unidos, 1971",,99112-2774,,2,150,,10,,,2,140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,10-Jun,Valdir,4.8,Folhadinho,Junho
+10-Jun,Sex.,Inês,"Rua João Casagrande, 144",Bonfliglioli,,,14,77,,3,,,,,,,,,,,,,2,10,4,20,,,4,20,,,4,24,,,,,,,,,Dinheiro,10-Jun,Valdir,2.464,Te Gusta,Junho
+10-Jun,Sex.,Juliana,"Rua Nazir Miguel, 830",JD Paulo VI,,,6,30,,,,,,,,,,,,,,,2,10,2,10,,,2,10,,,,,,,,,,,,,Voucher,12-Jun,Carlos,0.96,Te Gusta,Junho
+10-Jun,Sex.,Karla,"Rua Joaquim Lapas Veigas, 690/ 33E",,,,10,57,,5,,,,,,,,,,,,,,,6,30,,,2,10,,,2,12,,,,,,,,,Dinheiro,10-Jun,Edson,1.824,Te Gusta,Junho
+10-Jun,Sex.,Luiz,,,,,11,56,,,3,12,,,,,,,,,,,,,,,1,5,2,10,1,5,4,24,,,,,,,,,Dinheiro,10-Jun,Retirada no local,1.792,Te Gusta,Junho
+10-Jun,Sex.,Mazinha,"Rua bernardo dos Santos, 10 / Sigma 24",,99491-9319,,16,85,,3,2,8,,,,,,,,,,,3,15,1,5,3,15,3,15,1,5,2,12,1,7,,,,,,,Cartão de Débito,13-Jun,Edson,2.72,Te Gusta,Junho
+10-Jun,Sex.,Ruth,"Rua Henrique Chaves, 305/ 81A",JD Ester,3788-1266,,6,35,,5,,,,,,,,,,,,,2,10,1,5,2,10,,,1,5,,,,,,,,,,,Dinheiro,10-Jun,Edson,1.12,Te Gusta,Junho
+10-Jun,Sex.,Sônia,"Rua prospero cesarino paoliello, 26",,3461-5308,,7,41,,5,,,,,,,,,,,,,2,10,,,1,5,2,10,1,5,1,6,,,,,,,,,Dinheiro,10-Jun,Edson,1.312,Te Gusta,Junho
+10-Jun,Sex.,Vanusa,"Av. General Asdubal da Cunha, 1311/ 22B",JD Arpoador,,,4,23,,3,,,,,,,,,,,,,1,5,,,,,2,10,1,5,,,,,,,,,,,MC crédito,11-Jul,Edson,0.736,Te Gusta,Junho
+11-Jun,Sáb.,Débora,"Rua Maria Imaculada Pinheiro, 02",Adalgisa,,,17,91,,10,4,16,,,,,,,,,,,3,15,5,25,3,15,2,10,,,,,,,,,,,,,Visa electron,13-Jun,Edson,2.912,Te Gusta,Junho
+11-Jun,Sáb.,Lilian,"Rua Candido Fontoura, 401 / 12 B2",,,,7,40,,5,1,4,,,,,,,,,,,1,5,,,,,2,10,1,5,1,6,,,1,5,,,,,Visa electron,13-Jun,Edson,1.28,Te Gusta,Junho
+11-Jun,Sáb.,Marly,"Rua Paraibana, 440",,4558-5885,,6,40,,10,,,,,,,,,,,,,1,5,,,1,5,1,5,3,15,,,,,,,,,,,Visa electron,13-Jun,Edson,1.28,Te Gusta,Junho
+13-Jun,Seg.,Carol,"Rua Mariano Martins de Oliveira, 25",,99803-4567,,10,55,,3,1,4,,,,,,,,,,,1,5,1,5,2,10,2,10,1,5,1,6,,,,,1,7,,,Cartão de Débito,14-Jun,Edson,1.76,Te Gusta,Junho
+13-Jun,Seg.,Karina,"Rua Vera Paranajá de Souza Dantas, 162",,4781-2784,,9,55,,4,,,,,,,,,,,,,3,15,,,,,3,15,,,,,3,21,,,,,,,MC maestro,14-Jun,Carlos,1.76,Te Gusta,Junho
+13-Jun,Seg.,Marta,"Rua Constantino de Souza, 956",Campo Belo,5096-4666,,1,75,,5,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,13-Jun,Carlos,2.4,Folhadinho,Junho
+13-Jun,Seg.,Noberto,,,2613-4533,,12,60,,,,,,,,,,,,,,,4,20,,,,,4,20,4,20,,,,,,,,,,,Dinheiro,13-Jun,Retirada no local,1.92,Te Gusta,Junho
+13-Jun,Seg.,Pizzaria Cristal,,,,,3,190,,10,,,3,180,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Depósito,13-Jun,Edson,6.08,Folhadinho,Junho
+14-Jun,Ter.,Ivone,"Rua Henrique Gama Correia, 492",,,CEP 05539-040,12,65,,5,,,,,,,,,,,,,12,60,,,,,,,,,,,,,,,,,,,Dinheiro,14-Jun,Edson,2.08,Te Gusta,Junho
+14-Jun,Ter.,Silvia,"Rua Oscar Pedroso Horta, 605",,,,5,32,,3,,,,,,,,,,,,,1,5,,,1,5,1,5,,,,,1,7,,,,,1,7,MC crédito,14-Jul,Edson,1.024,Te Gusta,Junho
+15-Jun,Qua.,Roberto,"Raposo Tavares, 3175/ 107 Torre A",,,,14,75,,5,,,,,,,,,,,,,8,40,,,,,4,20,,,,,,,,,2,10,,,Visa crédito,15-Jul,Edson,2.4,Te Gusta,Junho
+16-Jun,Qui.,Erika,"Estrada São Francisco, 2701 Apto 223/ Bl 2",Taboão,,,8,53,,5,,,,,,,,,,,,,,,,,2,10,,,,,,,2,14,2,10,,,2,14,Dinheiro,16-Jun,Carlos,1.696,Te Gusta,Junho
+16-Jun,Qui.,Katarina,"Rua Maria Anunciação Oliveira, 54",,,,8,45,,5,,,,,,,,,,,,,2,10,,,2,10,2,10,2,10,,,,,,,,,,,Dinheiro,16-Jun,Edson,1.44,Te Gusta,Junho
+16-Jun,Qui.,Luciane,"av. albert bartolomeu, 434/ 84",,,,4,25,,5,,,,,,,,,,,,,1,5,1,5,1,5,,,,,,,,,1,5,,,,,Dinheiro,16-Jun,Edson,0.8,Te Gusta,Junho
+16-Jun,Qui.,Marcos,"Av. Otacílio Tomanik, 689/ 62 TA",,,,6,35,,5,,,,,,,,,,,,,2,10,2,10,,,,,2,10,,,,,,,,,,,Visa electron,17-Jun,Edson,1.12,Te Gusta,Junho
+16-Jun,Qui.,Patrícia,"Rua Marrocos, 101",JD Monte Alegre,4787-4134,,5,31,,5,,,,,,,,,,,,,,,,,1,5,2,10,,,1,6,,,1,5,,,,,Dinheiro,16-Jun,Carlos,0.992,Te Gusta,Junho
+16-Jun,Qui.,Roberto,"Rua Manoel Martins Colaço, 246/ 106 Bl 2",,,,5,32,,5,,,,,,,,,,,,,1,5,,,1,5,,,1,5,,,1,7,1,5,,,,,Visa electron,17-Jun,Edson,1.024,Te Gusta,Junho
+16-Jun,Qui.,Rosangela Flôr,"Rua Helena Maria Vita Rosa, 42",,,,5,30,,5,,,,,,,,,,,,,2,10,,,1,5,,,,,,,,,2,10,,,,,Visa electron,17-Jun,Edson,0.96,Te Gusta,Junho
+16-Jun,Qui.,Samantha,"Rua Bazílio da Silva, 209 / 62D",,3783-1115,,3,26,,5,,,,,,,,,,,,,,,1,5,,,,,,,,,,,2,16,,,,,,,Eduardo,,Te Gusta,Junho
+16-Jun,Qui.,Suely,"Rua camini Lourenço Del gaiso, 38",,3731-4043,,6,41,,5,,,,,,,,,,,,,,,1,5,2,10,,,,,,,3,21,,,,,,,Visa crédito,18-Jul,Edson,1.312,Te Gusta,Junho
+16-Jun,Qui.,Suzane,"Rua Carlos Lisdegno Carlucci, 500 / 204 B2",Peri Peri,,,12,65,,5,,,,,,,,,,,,,4,20,4,20,4,20,,,,,,,,,,,,,,,MC crédito,18-Jul,Edson,2.08,Te Gusta,Junho
+17-Jun,Sex.,Andreia,"Av. Escola Politecnica, 5323",,,,8,45,,5,,,,,,,,,,,,,3,15,,,,,1,5,1,5,,,,,3,15,,,,,Visa crédito,18-Jul,Edson,1.44,Te Gusta,Junho
+17-Jun,Sex.,Carla Andrade,"Rua Tenente Sebastião Soares, 18",JD Monte Alegre,98101-4748,,7,40,,5,,,,,,,,,,,,,,,3,15,,,3,15,,,,,,,1,5,,,,,MC maestro,20-Jun,Edson,1.28,Te Gusta,Junho
+17-Jun,Sex.,maria Conceição,"Rua Pedro Alexandrino Soares, 284",,,,8,45,,5,,,,,,,,,,,,,3,15,,,1,5,1,5,,,,,,,3,15,,,,,Visa crédito,18-Jul,Edson,1.44,Te Gusta,Junho
+17-Jun,Sex.,Maria Emilia,"Rua Dr. João Vieira Neves, 557",,,,7,40,,5,,,,,,,,,,,,,3,15,,,,,3,15,,,,,,,1,5,,,,,MC maestro,20-Jun,Edson,1.28,Te Gusta,Junho
+17-Jun,Sex.,Neide,"Rua Elena Antônia Shiavo, 95",,99154-1008,,14,79,,5,,,,,,,,,,,,,6,30,,,6,30,,,,,,,,,,,,,2,14,Visa electron,20-Jun,Edson,2.528,Te Gusta,Junho
+17-Jun,Sex.,Rafael,"Av. João Paulo Ablas, 1764/ 104B",,98526-9447,,8,52,,10,,,,,,,,,,,,,4,20,,,,,2,10,,,2,12,,,,,,,,,Visa crédito,18-Jul,Edson,1.664,Te Gusta,Junho
+17-Jun,Sex.,Ricardo,,,,,6,30,,,,,,,,,,,,,,,2,10,1,5,2,10,,,1,5,,,,,,,,,,,Dinheiro,17-Jun,Retirada no local,0.96,Te Gusta,Junho
+17-Jun,Sex.,Roberto,"Rua Manoel Martins Colaço, 246/ 231 Bl 8",JD de Abril,2507-6032,,14,78,,5,,,,,,,,,,,,,3,15,,,5,25,2,10,1,5,3,18,,,,,,,,,ELO débito,20-Jun,Edson,2.496,Te Gusta,Junho
+17-Jun,Sex.,Roberto,"Rua Célio Manoel Vieira, 119",,98711-0860,,10,56,,5,,,,,,,,,,,,,2,10,1,5,,,2,10,3,15,1,5,,,1,6,,,,,Cartão de Crédito,1-Jul,Carlos,1.792,Te Gusta,Junho
+17-Jun,Sex.,Tânia,"Rua Bernardo dos Santos, 10 Ômega 181",,,,15,82,,5,,,,,,,,,,,,,3,15,3,15,2,10,3,15,2,10,2,12,,,,,,,,,Visa crédito,18-Jul,Edson,2.624,Te Gusta,Junho
+18-Jun,Sáb.,David,"Rua Otávio Modolin, 163",,,,5,30,,5,,,,,,,,,,,,,,,5,25,,,,,,,,,,,,,,,,,Visa electron,20-Jun,Edson,0.96,Te Gusta,Junho
+18-Jun,Sáb.,Eliana,"Av. Prof. Lucas de Assunção, 284",,3722-4693,,8,45,,5,,,,,,,,,,,,,2,10,1,5,2,10,2,10,1,5,,,,,,,,,,,Dinheiro,18-Jun,Carlos,1.44,Te Gusta,Junho
+18-Jun,Sáb.,Iona,"Rua José luna, 78 casa 45",,,,10,60,,10,,,,,,,,,,,,,10,50,,,,,,,,,,,,,,,,,,,Dinheiro,18-Jun,Edson,1.92,Te Gusta,Junho
+18-Jun,Sáb.,Leda,,,3788-1743,,10,50,,,,,,,,,,,,,,,8,40,,,,,2,10,,,,,,,,,,,,,Dinheiro,18-Jun,Retirada no local,1.6,Te Gusta,Junho
+18-Jun,Sáb.,Marcos,,,,,8,40,,,,,,,,,,,,,,,2,10,,,,,2,10,2,10,,,,,2,10,,,,,Visa crédito,18-Jul,Retirada no local,1.28,Te Gusta,Junho
+18-Jun,Sáb.,Maria Ap.,"Rua Dr. Rubens Leme Machado, 164",JD Lúcia,99205-0442,,6,35,,5,,,,,,,,,,,,,1,5,,,2,10,1,5,2,10,,,,,,,,,,,Cartão de Débito,20-Jun,Carlos,1.12,Te Gusta,Junho
+18-Jun,Sáb.,Paiva,"Rua Heitor Ariente, 360",,3697-1234,,6,35,,5,,,,,,,,,,,,,6,30,,,,,,,,,,,,,,,,,,,Cartão de Débito,20-Jun,Edson,1.12,Te Gusta,Junho
+18-Jun,Sáb.,Samuel,"Rua Bernardo dos Santos, 10 / 144 Ômega",,,,6,35,,5,,,,,,,,,,,,,2,10,,,,,2,10,2,10,,,,,,,,,,,Cartão de Débito,20-Jun,Edson,1.12,Te Gusta,Junho
+18-Jun,Sáb.,Savério,"Av. José George, 600/ 11 B2",,,,20,114,,10,,,,,,,,,,,,,10,50,,,4,20,2,10,,,4,24,,,,,,,,,MC crédito,18-Jul,Edson,3.648,Te Gusta,Junho
+19-Jun,Dom.,Lurdes,"Rua Arminda, 80/ 23",,3846-887,,1,80,,10,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,19-Jun,Carlos,2.56,Folhadinho,Junho
+19-Jun,Dom.,Vera,"Rua Georgina de Freitas Nuzzi, 16",,3765-3265,,20,115,,5,,,,,,,,,,,,,5,25,,,4,20,,,4,20,4,24,3,21,,,,,,,MC maestro,20-Jun,Carlos,3.68,Te Gusta,Junho
+21-Jun,Ter.,Claudia,"Rua Basiléia, 134/ casa 435",,99657-9222,,13,73,,5,,,,,,,,,,,,,2,10,1,5,2,10,3,15,2,10,3,18,,,,,,,,,Dinheiro,21-Jun,Danilo,2.336,Te Gusta,Junho
+21-Jun,Ter.,Rosália,"Rua Dr. José Benedito Viana de Moraes, 265/ 83",,,,9,52,,5,,,,,,,,,,,,,4,20,,,1,5,2,10,,,2,12,,,,,,,,,Cartão de Débito,22-Jun,Danilo,1.664,Te Gusta,Junho
+22-Jun,Qua.,Alessandra,"Rua Pedro Pedrão, 1001",,4787-1569,,10,55,,5,,,,,,,,,,,,,3,15,,,2,10,5,25,,,,,,,,,,,,,Cartão de Débito,22-Jun,Danilo,1.76,Te Gusta,Junho
+22-Jun,Qua.,Ana Maria,"Rua Souza Reis, 120/ 24B",,,,6,35,,5,,,,,,,,,,,,,3,15,2,10,1,5,,,,,,,,,,,,,,,Dinheiro,22-Jun,Edson,1.12,Te Gusta,Junho
+22-Jun,Qua.,Angelica,"Rua Fracisco Silva Coelho, 112",,,,9,55,,5,,,,,,,,,,,,,6,30,1,5,,,1,5,,,,,1,10,,,,,,,Cartão de Débito,23-Jun,Danilo,1.76,Te Gusta,Junho
+22-Jun,Qua.,Eduardo,"Rua Helena Moraes de Oliveira, 320/ 16 B/ 36",,,,9,54,,7,,,,,,,,,,,,,4,20,2,10,2,10,,,,,,,,,,,,,1,7,Cartão de Débito,23-Jun,Danilo,1.728,Te Gusta,Junho
+22-Jun,Qua.,Fernanda,"Rua Bernardo dos Santos, 10 Apto 63 Alpha",,,,10,61,,5,,,,,,,,,,,,,1,5,2,10,,,2,10,3,15,,,,,2,16,,,,,Cartão de Débito,23-Jun,Danilo,1.952,Te Gusta,Junho
+22-Jun,Qua.,Gabriel,"Rua Dom Armando Lombarde, 80/ 11A",,,,8,63,,10,,,,,,,,,,,,,,,3,15,2,10,,,,,,,2,20,1,8,,,,,Dinheiro,22-Jun,Danilo,2.016,Te Gusta,Junho
+22-Jun,Qua.,Maria luiza,"Rua José Bellum, 183",,,,6,36,,5,,,,,,,,,,,,,2,10,,,3,15,,,,,1,6,,,,,,,,,Dinheiro,22-Jun,Danilo,1.152,Te Gusta,Junho
+22-Jun,Qua.,Rogê,"Rua Dr. João Vieira Neves, 622/ Casa 10",,98120-0484,,5,33,,5,,,,,,,,,,,,,1,5,1,5,1,5,1,5,,,,,,,1,8,,,,,Visa electron,23-Jun,Edson,1.056,Te Gusta,Junho
+22-Jun,Qua.,Samanta,"Rua Basilio da Silva, 209/ 62D",,3783-1115,,7,48,,5,,,,,,,,,,,,,2,10,,,,,2,10,,,,,,,2,16,,,1,7,Dinheiro,22-Jun,Carlos,1.536,Te Gusta,Junho
+22-Jun,Qua.,Vanessa,"Av. Eng. Garcia, 943/ 71 B5",,3586-9947,,8,45,,5,,,,,,,,,,,,,6,30,1,5,1,5,,,,,,,,,,,,,,,Dinheiro,22-Jun,Edson,1.44,Te Gusta,Junho
+23-Jun,Qui.,Eliana Rosa,"Rua Dr. Cariolando pompeu Elizer, 68",JD Sarah,97474-2447,,20,125,,5,,,,,,,,,,,,,,,,,,,10,50,2,10,2,12,,,6,48,,,,,Cheque,23-Jun,Danilo,4,Te Gusta,Junho
+23-Jun,Qui.,Maria luiza,"Rua José alves de Almeida, 130/ B6 112",,,,6,35,,5,,,,,,,,,,,,,2,10,,,2,10,2,10,,,,,,,,,,,,,Dinheiro,23-Jun,Danilo,1.12,Te Gusta,Junho
+23-Jun,Qui.,Sônia Moraes,"Av. Dr. Guilherme Drumond Vilares, 1136/ B1 113",,,,10,60,,10,,,,,,,,,,,,,3,15,,,3,15,2,10,2,10,,,,,,,,,,,Dinheiro,23-Jun,Danilo,1.92,Te Gusta,Junho
+24-Jun,Sex.,Carla,"Rua Tenente Sebastião Soares, 18",JD Monte Alegre,98101-4748,,8,45,,5,,,,,,,,,,,,,,,,,2,10,3,15,3,15,,,,,,,,,,,Cartão de Débito,27-Jun,Edson,1.44,Te Gusta,Junho
+24-Jun,Sex.,Cristiane,"Rua Bernardo dos Santos, 10 Apto 64 Gama",,4304-6397,,20,116,,5,,,,,,,,,,,,,1,5,7,35,3,15,,,2,10,5,30,,,2,16,,,,,Dinheiro,24-Jun,Danilo,3.712,Te Gusta,Junho
+24-Jun,Sex.,Fernanda,"Rua Ministro Rafael de Barros Monteiro, 339",,,,8,45,,5,,,,,,,,,,,,,,,6,30,1,5,,,1,5,,,,,,,,,,,Cartão de Débito,27-Jun,Danilo,1.44,Te Gusta,Junho
+24-Jun,Sex.,Giulio,"Rua Gabirobeira, 144",Cidade das Flores,,,8,45,,5,,,,,,,,,,,,,,,4,20,,,3,15,1,5,,,,,,,,,,,Cartão de Débito,27-Jun,Danilo,1.44,Te Gusta,Junho
+24-Jun,Sex.,Juliana,"Av. Vida Nova, 156/ 63A",Taboão,,,8,45,,5,,,,,,,,,,,,,3,15,,,2,10,3,15,,,,,,,,,,,,,Cartão de Débito,27-Jun,Danilo,1.44,Te Gusta,Junho
+24-Jun,Sex.,Luiz,"Rua Santa terezinha, 187",,,,8,53,,5,,,,,,,,,,,,,4,20,,,2,10,,,,,,,1,10,1,8,,,,,Visa electron,27-Jun,Danilo,1.696,Te Gusta,Junho
+24-Jun,Sex.,Marli Luciana,"Rua Peçanha, 207 Recanto Suave",Cotia,97192-8354,,8,49,,5,,,,,,,,,,,,,,,,,,,,,4,20,4,24,,,,,,,,,Cartão de Crédito,24-Jul,Edson,1.568,Te Gusta,Junho
+24-Jun,Sex.,Neide,"Av. Vida Nova, 156/ 91B",Taboão,4701-2246,,10,55,,5,,,,,,,,,,,,,1,5,5,25,4,20,,,,,,,,,,,,,,,Dinheiro,24-Jun,Edson,1.76,Te Gusta,Junho
+24-Jun,Sex.,Rosa,"Rua Poema dos Olhos, 572",,3782-0300,,4,27,,5,,,,,,,,,,,,,1,5,1,5,,,,,,,2,12,,,,,,,,,Cartão de Débito,27-Jun,Edson,0.864,Te Gusta,Junho
+24-Jun,Sex.,Ruth,"Rua Henrique Chaves, 305/ 81A",,3788-1266,,6,35,,5,,,,,,,,,,,,,3,15,,,2,10,,,1,5,,,,,,,,,,,Dinheiro,24-Jun,Edson,1.12,Te Gusta,Junho
+24-Jun,Sex.,Sônia,"Rua Perez Casas, 106 casa 3",,,,4,23,,3,,,,,,,,,,,,,4,20,,,,,,,,,,,,,,,,,,,Dinheiro,24-Jun,Carlos,0.736,Te Gusta,Junho
+24-Jun,Sex.,Vera lucia,"Rua Bizari, 172",,3726-8948,,8,54,,5,,,,,,,,,,,,,3,15,,,,,,,2,10,,,,,3,24,,,,,Cartão de Crédito,8-Jul,Edson,1.728,Te Gusta,Junho
+24-Jun,Sex.,Willian,"Rua Nicolas Ciola, 286",JD Arpoador,,,8,41,,,,,,,,,,,,,,,4,20,3,15,,,,,,,1,6,,,,,,,,,Dinheiro,24-Jun,Carlos,1.312,Te Gusta,Junho
+25-Jun,Sáb.,Carolina,"Rua Antônio Ambuba Saint Bartolomeu, 700/ 203 B1",,98259-2077,,8,53,,10,,,,,,,,,,,,,4,20,,,1,5,1,5,1,5,,,,,1,8,,,,,Dinheiro,25-Jun,Danilo,1.696,Te Gusta,Junho
+25-Jun,Sáb.,Eliane,"Rua Gestão do Rego Monteiro, 545",,,,11,60,2,5,,,,,,,,,,,,,3,15,2,10,2,10,2,10,,,2,12,,,,,,,,,Cartão de Débito,27-Jun,Danilo,1.92,Te Gusta,Junho
+25-Jun,Sáb.,Evani,"Rua Jorge Americano, 380/ 91",Alto de Pinheiros,97438-8410,,7,100,6,,,,1,70,,,,,,,,,2,10,,,2,10,,,,,,,,,2,16,,,,,Dinheiro,25-Jun,Carlos,3.2,Ambos,Junho
+25-Jun,Sáb.,Gabriel Fernandes,"Av. General Asdubal da Cunha, 1344/ 01",JD Arpoador,98025-9808,,9,54,,5,,,,,,,,,,,,,1,5,1,5,,,2,10,,,1,6,,,1,8,3,15,,,Dinheiro,25-Jun,Danilo,1.728,Te Gusta,Junho
+25-Jun,Sáb.,Guto,"Rua Apinagés, 1786/ 93",,99932-3767,Mini Empanadas,100,230,,,,,,,,,,,,,,,,,50,115,,,,,50,115,,,,,,,,,,,Cartão de Crédito,9-Jul,Carlos,7.34,Te Gusta,Junho
+25-Jun,Sáb.,Karla,"Rua Joaquim Lapas Veigas, 690/ 33E",,99499-1200,,12,71,,5,,,,,,,,,,,,,,,6,30,2,10,2,10,,,1,6,1,10,,,,,,,Voucher,25-Jul,Danilo,3.55,Te Gusta,Junho
+25-Jun,Sáb.,Marluce,,,,,10,50,,,,,,,,,,,,,,,2,10,,,2,10,2,10,4,20,,,,,,,,,,,Cartão de Débito,27-Jun,Retirada no local,1.2,Te Gusta,Junho
+25-Jun,Sáb.,Simone,"Rua Manoel Alvares da Costa, 187/ 41B",,94715-6317,,9,55,,5,,,,,,,,,,,,,,,1,5,1,5,3,15,1,5,2,12,,,1,8,,,,,Cartão de Débito,27-Jun,Danilo,1.31,Te Gusta,Junho
+25-Jun,Sáb.,Suely,"Rua Filom, 172",,4139-8165,,10,55,,5,,,,,,,,,,,,,2,10,,,1,5,7,35,,,,,,,,,,,,,Cartão de Débito,25-Jun,Edson,1.31,Te Gusta,Junho
+28-Jun,Ter.,Geni,"Rua eng. Pedro Garcin, 190 Casa 42",,,,9,47,,5,4,16,,,,,,,,,,,1,5,3,15,,,,,,,1,6,,,,,,,,,Voucher,28-Jun,Edson,0,Te Gusta,Junho
+28-Jun,Ter.,Mônica,"Estrada São Francisco, 1588 Apto 53/ Bl 5",Taboão,,,6,35,,5,,,,,,,,,,,,,6,30,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Edson,0,Te Gusta,Junho
+28-Jun,Ter.,Samuel,"Rua Bernardos Santos, 10 / 144 ômega",,,,6,35,,5,,,,,,,,,,,,,3,15,,,,,3,15,,,,,,,,,,,,,Cartão de Crédito,,Edson,0,Te Gusta,Junho
+30-Jun,Qui.,Pizzaria Cristal,,,,,3,190,,10,,,3,180,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Depósito,4-Jul,Edson,0,Folhadinho,Junho
+1-Jul,Sex.,Alexandre,,,,,10,52,,,,,,,,,,,,,,,2,10,2,10,,,2,10,2,10,2,12,,,,,,,,,Cartão de Crédito,,Retirada no local,1.24,Te Gusta,Julho
+1-Jul,Sex.,Andréia,"Rua Trajano Reis, 186/ 54 bl4",,3582-9347,,5,35,,5,,,,,,,,,,,,,,,,,1,5,2,10,2,10,,,,,,,1,5,,,Voucher,,Edson,1.4,Te Gusta,Julho
+1-Jul,Sex.,Auri,,,98448-4484,,5,25,,,,,,,,,,,,,,,3,15,,,2,10,,,,,,,,,,,,,,,Cartão de Crédito,,Retirada no local,0.75,Te Gusta,Julho
+1-Jul,Sex.,Carla,"Rua Ester Samara, 111/ 43A",,99293-5844,,12,64,,3,,,,,,,,,,,,,,,2,10,2,10,5,25,2,10,1,6,,,,,,,,,Cartão de Crédito,,Carlos,1.92,Te Gusta,Julho
+1-Jul,Sex.,Roberto,"Rua Célio Manoel Vieira, 119",,98711-0860,,6,51,,5,,,,,,,,,,,,,1,5,1,5,1,5,2,10,1,5,,,,,2,16,,,,,Cartão de Crédito,,Edson,1.53,Te Gusta,Julho
+1-Jul,Sex.,Sabrina,"Rua Dr. Seidel, 425 (HSBC)",,,Mini Empanadas,150,427,,10,,,,,,,,,,,,,80,227,,,35,95,35,95,,,,,,,,,,,,,Cartão de Crédito,,Carlos,12.81,Te Gusta,Julho
+2-Jul,Sáb.,Ana Paula,"Rua Enio Abambuja Neves, 109",,4620-0139,,5,56,,10,,,,,,,,,,,,,2,10,,,,,2,10,,,,,1,10,2,16,,,,,Cartão de Crédito,,Edson,1.68,Te Gusta,Julho
+2-Jul,Sáb.,Ana Roberto,,,98457-4360,,5,43,,,,,,,,,,,,,,,1,5,1,5,1,5,2,10,,,,,,,1,8,2,10,,,Cartão de Crédito,,Retirada no local,1.29,Te Gusta,Julho
+2-Jul,Sáb.,Andreia,"Rua Bernardo dos Reis, 10 Omega 202",,,,17,110,,5,,,,,,,,,,,,,2,10,7,35,3,15,1,5,,,2,12,2,20,1,8,,,,,Cartão de Débito,,Carlos,2.63,Te Gusta,Julho
+2-Jul,Sáb.,Angela/ Sati,"Rua Tupi, 383",,98762-7508,,2,135,,10,,,1,70,,,,,,,1,55,,,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Carlos,4.05,Folhadinho,Julho
+2-Jul,Sáb.,Ariane,"Rua Gastão do Rego Monteiro, 666/ 181",,98967-6848,,5,38,,5,,,,,,,,,,,,,,,1,5,2,10,2,10,,,,,,,1,8,,,,,Dinheiro,,Edson,,Te Gusta,Julho
+2-Jul,Sáb.,Claudiane,"Rua José Lavechia, 62/ 44A",,95441-7043,,10,56,,5,,,,,,,,,,,,,6,30,1,5,1,5,1,5,,,1,6,,,,,,,,,Cartão de Crédito,,Edson,1.68,Te Gusta,Julho
+2-Jul,Sáb.,Daniela,"Rua Ipanema, 36",,3721-4146,Morada dos Pães,18,116,,5,,,,,,,,,,,,,6,30,5,25,2,10,,,,,5,30,,,2,16,,,,,Cartão de Crédito,,Edson,3.48,Te Gusta,Julho
+2-Jul,Sáb.,Diego,"Av. Vida Nova, 156",Taboão,94011-3287,,3,20,,5,,,,,,,,,,,,,,,1,5,,,2,10,,,,,,,,,,,,,Cartão de Débito,,Carlos,0.48,Te Gusta,Julho
+2-Jul,Sáb.,Dilcimeyre,"Rua Barone Mercadante, 49",,3781-5620,,10,55,,5,,,,,,,,,,,,,5,25,,,5,25,,,,,,,,,,,,,,,Cartão de Crédito,,Edson,1.65,Te Gusta,Julho
+2-Jul,Sáb.,Fernanda,"Rua Atilia, 466",,3683-6743,,10,69,,10,,,,,,,,,,,,,6,30,3,15,,,,,,,1,6,,,1,8,,,,,Cartão de Crédito,,Edson,2.07,Te Gusta,Julho
+2-Jul,Sáb.,Lidia,"Rua Eng. José Amadei, 35 casa 3",,982000812,,3,32,,3,,,,,,,,,,,,,1,5,,,,,,,,,1,6,1,10,1,8,,,,,Cartão de Crédito,,Edson,0.96,Te Gusta,Julho
+2-Jul,Sáb.,Morales,"Rua Pamplona, 83/ 1703",,,,4,35,,10,,,,,,,,,,,,,2,10,,,,,,,1,5,,,1,10,,,,,,,Cartão de Débito,,Carlos,0.84,Te Gusta,Julho
+2-Jul,Sáb.,Roberto,"Rua Domingos lopes da Silva, 560 /41 ",Morumbi,96831-3838,,4,41,,5,,,,,,,,,,,,,1,5,,,,,1,5,2,10,,,,,2,16,,,,,Cartão de Crédito,,Edson,1.23,Te Gusta,Julho
+2-Jul,Sáb.,Vera lúcia,"Rua Pijaré, 172",,3726-8948,,4,57,,5,,,,,,,,,,,,,2,10,,,,,2,10,,,,,,,4,32,,,,,Dinheiro,,Edson,,Te Gusta,Julho
+4-Jul,Seg.,Marluce,,,,,31,200,20,0,,,,,1,70,,,,,,,,,10,50,,,10,50,10,50,,,,,,,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+4-Jul,Seg.,Milton,"Rua Jacupiranga, 88",,98121-6968,,2,150,,10,,,2,140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Carlos,4.5,Folhadinho,Julho
+5-Jul,Ter.,Raissa,"Rua Dominique Lagru, 71/ 44",,97224-1297,,14,78,,5,,,,,,,,,,,,,2,10,4,20,1,5,3,15,1,5,3,18,,,,,,,,,Cartão de Débito,,Edson,2.496,Te Gusta,Julho
+5-Jul,Ter.,Reinaldo,"Rua carlos Alberto Garcia Callioli, 70",,999949513,,4,25,,5,,,,,,,,,,,,,2,10,,,2,10,,,,,,,,,,,,,,,Dinheiro,,Edson,,Te Gusta,Julho
+5-Jul,Ter.,Tiago,"Rua Iracema Cena Cerqueira dos Santos, 179/ 31",,,,6,35,,5,,,,,,,,,,,,,2,10,,,,,2,10,2,10,,,,,,,,,,,Cartão de Crédito,,Edson,1.05,Te Gusta,Julho
+5-Jul,Ter.,Veridiana,"Rua Augusto Peroni, 447",,3721-1262,,8,57,,5,,,,,,,,,,,,,2,10,1,5,2,10,,,1,5,,,,,1,8,,,2,14,Cartão de Crédito,,Edson,1.71,Te Gusta,Julho
+6-Jul,Qua.,Katia,"rua José Barbosa, 130",,3571-9508,,4,25,,5,,,,,,,,,,,,,2,10,,,1,5,,,1,5,,,,,,,,,,,Dinheiro,,Edson,,Te Gusta,Julho
+6-Jul,Qua.,Luiz,,,99212-5529,,6,90,,,5,20,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Retirada no local,2.7,Folhadinho,Julho
+6-Jul,Qua.,Sérgio,"Rua Paranaense, 985",JD Conceição,95609-5064,,3,29,,5,,,,,,,,,,,,,2,10,,,,,,,,,1,6,,,1,8,,,,,Dinheiro,,Edson,,Te Gusta,Julho
+7-Jul,Qui.,Cristiane,"Rua Poetisa Colombina, 143/ 124",,98707-9010,,7,42,,5,,,,,,,,,,,,,3,15,,,,,2,10,,,2,12,,,,,,,,,Cartão de Débito,,Edson,1.008,Te Gusta,Julho
+7-Jul,Qui.,Rodmiza,"Rua Manoel dias de Oliveira, 76",JD Alvorada,3751-4298,,10,110,,10,,,,,,,,,,,,,,,,,,,10,100,,,,,,,,,,,,,Cartão de Crédito,,Edson,3.3,Te Gusta,Julho
+8-Jul,Sex.,Bruna,"Av. Vida Nova, 156/ 91B",Taboão,,,12,73,,5,,,,,,,,,,,,,2,10,4,20,5,25,,,1,5,,,,,1,8,,,,,Cartão de Crédito,,Carlos,2.19,Te Gusta,Julho
+8-Jul,Sex.,Cecília,"Av. Prof. Alceu Maynarde Araujo, 443/ 31b1",,95628-7771,,2,165,,10,,,1,70,,,1,85,,,,,,,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Carlos,3.94,Te Gusta,Julho
+8-Jul,Sex.,Nilsin,"Rua Trajano Reis, 777/ 43c2",JD Peri Peri,97650-2663,,16,122,,5,,,,,,,,,,,,,4,20,2,12,,,4,20,3,15,3,18,0,0,4,32,,,,,Cartão de Débito,,Edson,3.89,Te Gusta,Julho
+8-Jul,Sex.,Sandra,"Rua Giacomo Caríssimo, 219",JD Adalgisa,3781-0794,,9,77,,5,3,12,,,,,,,,,,,,,,,4,16,,,,,,,2,20,3,24,,,,,Voucher,,Edson,3.08,Te Gusta,Julho
+9-Jul,Sáb.,Ana Maria,"Rua Coronel Otaviano da Silveira, 246",,3751-0673,,6,43,,5,,,,,,,,,,,,,,,2,10,1,5,1,5,2,10,,,,,1,8,,,,,Cartão de Crédito,,Edson,1.29,Te Gusta,Julho
+9-Jul,Sáb.,Denis,"Rua Octavio modoli, 163",,3783-1743,,6,35,,5,,,,,,,,,,,,,,,5,25,,,1,5,,,,,,,,,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+9-Jul,Sáb.,Giulio,"Rua Gabirobeira, 144",,98816-6868,,5,43,,10,,,,,,,,,,,,,,,3,15,,,2,10,,,,,,,1,8,,,,,Cartão de Crédito,,Edson,1.29,Te Gusta,Julho
+9-Jul,Sáb.,Rodolfo,,,,,2,140,,,,,2,140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Retirada no local,4.47,Folhadinho,Julho
+9-Jul,Sáb.,Sandra,"Rua Giacomo Caríssimo, 210",,3781-0794,,6,83,,5,,,,,,,,,,,,,,,,,6,30,,,,,,,,,6,48,,,,,Cartão de Crédito,,Edson,3.32,Te Gusta,Julho
+9-Jul,Sáb.,Symone,"Rua Antonio Francisco Soares, 281",,982749-9174,,9,52,,3,,,,,,,,,,,,,2,10,,,,,2,10,2,10,2,12,,,,,,,1,7,Cartão de Crédito,,Edson,1.56,Te Gusta,Julho
+9-Jul,Sáb.,Vic,"Av. Dona Benedina Ignes Julio, 294/ 24 Bl. 3",,96194-9394,,5,33,,7,,,,,,,,,,,,,1,5,,,,,2,10,1,5,1,6,,,,,,,,,Cartão de Crédito,,Edson,0.99,Te Gusta,Julho
+10-Jul,Dom.,Tatiane,"Rua João Guilherme, 17",Dracena,3751-5941,Mini Empanadas,36,100,8,0,,,,,,,,,,,,,18,54,,,,,18,54,,,,,,,,,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+10-Jul,Dom.,Vera,"Rua Georgina Freitas Nezzi, 16",,3765-3265,,28,166,,5,,,,,,,,,,,,,3,15,14,70,5,25,,,5,25,,,1,10,2,16,,,,,Cartão de Débito,,Carlos,3.984,Te Gusta,Julho
+12-Jul,Ter.,Jô,"Av. General Asdrubal da Cunha, 401",,2769-4362,,6,36,,5,,,,,,,,,,,,,1,5,3,15,,,1,5,,,1,6,,,,,,,,,Cartão de Crédito,,Edson,1.08,Te Gusta,Julho
+13-Jul,Qua.,Alessandra,"Rua Pedro Pedrão, 101",,4787-1569,,5,31,,5,,,,,,,,,,,,,4,20,,,,,,,,,1,6,,,,,,,,,,,Eduardo,,Te Gusta,Julho
+13-Jul,Qua.,Bruna,"Rua Antonio Francisco Soares, 461",,973890483,,8,47,,5,,,,,,,,,,,,,2,10,2,10,,,2,10,,,2,12,,,,,,,,,Cartão de Crédito,,Edson,1.88,Te Gusta,Julho
+13-Jul,Qua.,Geni,"Rua eng. Pedro Garcin, 190 Casa 42",,97196-5096,,8,47,,5,,,,,,,,,,,,,,,5,25,,,1,5,,,2,12,,,,,,,,,Voucher,,Eduardo,1.88,Te Gusta,Julho
+13-Jul,Qua.,Paula,"Rua Odon de Cluny, 51",,98057-3462,,6,35,,5,,,,,,,,,,,,,,,5,25,,,,,1,5,,,,,,,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+13-Jul,Qua.,Rogério,"Av. Raposo Tavares, 3175/ D96",,2691-5187,,5,31,,5,,,,,,,,,,,,,1,5,2,10,1,5,,,,,1,6,,,,,,,,,Cartão de Débito,,Edson,0.74,Te Gusta,Julho
+13-Jul,Qua.,Tatiana,"Rua Trajano dos Reis, 777/ 32 c2",,3507-0839,,4,33,,5,,,,,,,,,,,,,,,1,5,1,5,2,10,,,,,,,1,8,,,,,Cartão de Débito,,Edson,0.79,Te Gusta,Julho
+14-Jul,Qui.,Claudete,"Av. Dr. Martin Luther king, 2547/ 141",,3685-1628,,6,35,,5,,,,,,,,,,,,,4,20,,,,,2,10,,,,,,,,,,,,,Cheque,,Eduardo,0,Te Gusta,Julho
+14-Jul,Qui.,Etiene,"Travessa da Palmas, 58",,4786-2686,,8,71,,5,,,,,,,,,,,,,,,3,15,2,10,2,10,,,,,,,3,24,,,1,7,Cartão de Crédito,,Edson,2.13,Te Gusta,Julho
+14-Jul,Qui.,Márcia,"Rua Padre João Maria Gorzone, 24 casa 1",JD Arpoador,99191-2815,Pedidos Já,5,40,,5,,,,,,,,,,,,,2,10,,,,,1,5,,,2,12,,,1,8,,,,,Voucher,,Edson,1.6,Te Gusta,Julho
+14-Jul,Qui.,Palmira,"Rua Inácio Manoel Alvares, 684",,98185-9295,,12,65,,5,,,,,,,,,,,,,4,20,,,3,15,2,10,3,15,,,,,,,,,,,,,Eduardo,,Te Gusta,Julho
+14-Jul,Qui.,Peterson,"Rua Bonifácio Berones, 95/ 21G",,3582-3447,,5,30,,5,,,,,,,,,,,,,1,5,1,5,,,2,10,1,5,,,,,,,,,,,Cartão de Crédito,,Edson,0.72,Te Gusta,Julho
+14-Jul,Qui.,Simone,"Rua Uganda, 88",JD Monte Alegre,4701-2925,,8,45,,5,,,,,,,,,,,,,8,40,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Edson,1.08,Te Gusta,Julho
+14-Jul,Qui.,Vânia,"Rua Manoel Martins Colaço, 246/ 330 b8",,3628-0029,,16,95,,5,,,,,,,,,,,,,2,10,,,10,50,2,10,,,,,2,20,,,,,,,Voucher,,Eduardo,3.8,Te Gusta,Julho
+15-Jul,Sex.,Cristiane,"Rua Eudoro linconl Berlinck, 450 / casa 3",,,Pedidos Já,6,35,,5,,,,,,,,,,,,,3,15,3,15,,,,,,,,,,,,,,,,,Cartão de Débito,,Eduardo,0.7,Te Gusta,Julho
+15-Jul,Sex.,Luciene,"Rua Iracema Cena Cerqueira dos Santos, 166",,96345-4542,,7,44,,5,,,,,,,,,,,,,1,5,,,,,4,20,,,1,6,,,1,8,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+15-Jul,Sex.,Maria Elena,"Rua General José Luiz Pereira de Vasconcelo, 19",,3297-6426,,8,48,,5,,,,,,,,,,,,,2,10,,,,,3,15,,,3,18,,,,,,,,,Cartão de Crédito,,Edson,1.44,Te Gusta,Julho
+15-Jul,Sex.,Sanderly,,,,,3,20,4,,,,,,,,,,,,,,,,,,,,2,10,,,1,6,,,1,8,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+15-Jul,Sex.,Simone,"Rua Uganda, 88",,4701-2925,,8,45,,5,,,,,,,,,,,,,8,40,,,,,,,,,,,,,,,,,,,Cartão de Débito,,Eduardo,0.9,Te Gusta,Julho
+16-Jul,Sáb.,Aldair,"Rua Prospero Lopes, 96",,947568706,,3,18,,3,,,,,,,,,,,,,,,1,5,1,5,,,1,5,,,,,,,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+16-Jul,Sáb.,Bruna,"Rua Nicolas Ciola, 286",,3782-0460,Pedidos Já,4,25,,3,,,,,,,,,,,,,2,10,,,,,,,,,2,12,,,,,,,,,Cartão,,Eduardo,0.75,Te Gusta,Julho
+16-Jul,Sáb.,Daniela,"Rua Ministro Heitor Bastos Tigre, 512",,5846-3271,,15,82,,7,,,,,,,,,,,,,10,50,5,25,,,,,,,,,,,,,,,,,Cartão de Crédito,,Eduardo,2.46,Te Gusta,Julho
+16-Jul,Sáb.,Deia Suzuki,"Rua Rosário Ineserra, 137",,4135-3788,,8,45,,5,,,,,,,,,,,,,8,40,,,,,,,,,,,,,,,,,,,,,Eduardo,,Te Gusta,Julho
+16-Jul,Sáb.,Mirian,"Rua Genaldo Amirim, 287",,,,4,28,,5,,,,,,,,,,,,,1,5,,,1,5,1,5,,,,,,,1,8,,,,,,,Eduardo,,Te Gusta,Julho
+16-Jul,Sáb.,Sérgio,"Rua Paranaense, 985",,96509-5064,,6,40,,5,,,,,,,,,,,,,1,5,,,,,,,,,5,30,,,,,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+16-Jul,Sáb.,Vinicius,"Rua Dr. Leopoldo Silva, 26",,97984-2460,,8,53,,10,,,,,,,,,,,,,1,5,,,2,10,1,5,1,5,3,18,,,,,,,,,Dinheiro,,Eduardo,,Te Gusta,Julho
+19-Jul,Ter.,Alexandre,"Av. Albert Bartolomeu, 242/ 136 B",,99493-1098,Pedidos já,7,40,,0,,,,,,,,,,,,,,,2,10,1,5,,,1,5,2,12,,,1,8,,,,,Cartão de Débito,,Eduardo,0.8,Te Gusta,Julho
+19-Jul,Ter.,Cristiane,"Rua Eudoro linconl Berlinck, 450 / casa 3",,99918-4880,Pedidos Já,8,45,,5,,,,,,,,,,,,,3,15,5,25,,,,,,,,,,,,,,,,,Cartão de Débito,,Eduardo,0.9,Te Gusta,Julho
+19-Jul,Ter.,Lilian,"Rua America Alves Pereira, 194/ 62A",,3758-5111,,12,82,,10,,,,,,,,,,,,,4,20,,,,,4,20,,,,,,,4,32,,,,,,,Eduardo,,Te Gusta,Julho
+19-Jul,Ter.,Simone,"Rua Uganda, 88",,4701-2925,,8,45,,5,,,,,,,,,,,,,4,20,,,,,2,10,2,10,,,,,,,,,,,Cartão de Crédito,,Eduardo,1.35,Te Gusta,Julho
+20-Jul,Qua.,Adriana,"Rua Maria Risso Mendes, 89",Parque Continental,2637-4930,Pedidos já,9,64,,10,,,,,,,,,,,,,4,20,1,5,,,1,5,,,,,,,3,24,,,,,Cartão de Crédito,,Eduardo,1.92,Te Gusta,Julho
+20-Jul,Qua.,Nathalia,"Rua Visconde de Lombertino, 143/ 6",,982535449,Pedidos Já,8,53,,10,2,8,,,,,,,,,,,1,5,1,5,1,5,1,5,,,,,,,1,8,,,1,7,Cartão de Crédito,,Eduardo,1.59,Te Gusta,Julho
+21-Jul,Qui.,Giulio,"Rua Gabirobeira, 144",,98816-8668,,8,56,,10,,,,,,,,,,,,,,,3,15,,,3,15,,,,,,,2,16,,,,,Dinheiro,,Eduardo,,Te Gusta,Julho
+21-Jul,Qui.,Iolanda,"Av. Maria Rosa, 140",,947338577,,18,94,,5,2,6,,,,,,,,,,,9,45,,,,,4,20,,,3,18,,,,,,,,,Cartão de Crédito,,Eduardo,2.82,Te Gusta,Julho
+22-Jul,Sex.,Carla,"Rua Ester Samara, 111/ 43A",,992935844,,12,62,,0,,,,,,,,,,,,,,,3,15,,,2,10,5,25,2,12,,,,,,,,,Cartão de Crédito,,Eduardo,1.86,Te Gusta,Julho
+22-Jul,Sex.,Dora,"Av. Ceci, 2001/ 72",,99855-2998,,3,220,,10,,,3,210,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Eduardo,0,Folhadinho,Julho
+22-Jul,Sex.,Maria Elena,"Rua Gen José Luiz Pereira de Vasconcelos, 19",,3297-6426,,7,42,,3,,,,,,,,,,,,,,,,,,,1,5,2,10,4,24,,,,,,,,,Cartão,,Eduardo,1.26,Te Gusta,Julho
+22-Jul,Sex.,Ofelia,"Rua Gianino, 240",,3782-2635,,6,39,,3,,,,,,,,,,,,,,,1,5,1,5,1,5,1,5,1,6,1,10,,,,,,,Cartão de Crédito,,Eduardo,1.17,Te Gusta,Julho
+22-Jul,Sex.,Tainara,"Rua Conselheiro Pena, 467",,4321-3549,,12,71,,10,,,,,,,,,,,,,3,15,2,10,3,15,,,3,15,1,6,,,,,,,,,Cartão,,Eduardo,1.7,Te Gusta,Julho
+23-Jul,Sáb.,Aldair,,,,,7,30,1,0,4,16,,,,,,,,,,,2,10,,,1,5,,,,,,,,,,,,,,,Cartão de Crédito,,Retirada no local,0.72,Te Gusta,Julho
+23-Jul,Sáb.,Ale,"Rua Pedro Pedrão, 101",,4787-1569,,5,30,,5,,,,,,,,,,,,,3,15,,,,,2,10,,,,,,,,,,,,,Dinheiro,,Eduardo,,Te Gusta,Julho
+23-Jul,Sáb.,Erick Rosa,"Rua prospero cesarino paoliello, 191",,,Pedidos Já,8,53,,10,1,4,,,,,,,,,,,,,3,15,2,10,,,,,1,6,,,1,8,,,,,,,Eduardo,,Te Gusta,Julho
+23-Jul,Sáb.,Flávia,"Rua Nazir Miguel, 244",,99126-3745,Pedidos Já,7,46,,5,2,8,,,,,,,,,,,2,10,,,,,1,5,,,,,1,10,1,8,,,,,Cartão de Débito,,Eduardo,0.92,Te Gusta,Julho
+23-Jul,Sáb.,Luciana,"Rua Franco Paolantônio, 30/ 6",,4304-2002,,8,53,,7,,,,,,,,,,,,,3,15,,,,,2,10,1,5,,,,,2,16,,,,,Cartão de Crédito,,Eduardo,1.59,Te Gusta,Julho
+23-Jul,Sáb.,Maria José,"Rua General Bazílio Taborda, 139/ 23A",,3721-7765,,6,35,,5,,,,,,,,,,,,,4,20,,,1,5,1,5,,,,,,,,,,,,,Cartão de Crédito,,Carlos,1.05,Te Gusta,Julho
+23-Jul,Sáb.,Roberto,"Rua Domingos lopes da Silva, 560 /41 ",,96831-3838,,4,28,,5,,,,,,,,,,,,,,,,,,,,,3,15,,,,,1,8,,,,,Cartão de Crédito,,Eduardo,0.84,Te Gusta,Julho
+24-Jul,Dom.,Guilherme,"Rua Barão do Triunfo, 1213",,99121-9173,,2,140,,0,,,2,140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,,Carlos,,Folhadinho,Julho
+25-Jul,Seg.,Vera,,,,,4,20,,,,,,,,,,,,,,,,,,,,,,,4,20,,,,,,,,,,,Dinheiro,,Retirada no local,,Te Gusta,Julho
+26-Jul,Ter.,Tiago,"Rod. Raposo Tavares, 3175/ 52D",,2628-8252,Pedidos Já,8,63,,5,,,,,,,,,,,,,,,,,,,2,10,,,,,,,6,48,,,,,Dinheiro,,Eduardo,,Te Gusta,Julho
+27-Jul,Qua.,Geni,"Rua eng. Pedro Garcin, 190 Casa 42",,97196-5096,,4,26,,5,,,,,,,,,,,,,,,3,15,,,,,,,1,6,,,,,,,,,Cartão de Débito,,Eduardo,0.52,Te Gusta,Julho
+27-Jul,Qua.,Pizzaria Cristal,"Rua Professor Artur Ramos, 551",,,,3,190,,10,,,3,180,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,,Eduardo,,Folhadinho,Julho
+27-Jul,Qua.,Roberto,"Av. Eitor Antonio Eiras garcia, 943/ 43 B5",,3783-8780,,6,36,,5,,,,,,,,,,,,,1,5,,,1,5,3,15,,,1,6,,,,,,,,,Cartão de Débito,,Eduardo,0.72,Te Gusta,Julho
+27-Jul,Qua.,Sérgio,"Rua Dr. Mario de Moura Albuquerque, 400/ 84A",,9529-41152,,30,158,,8,,,,,,,,,,,,,6,30,6,30,6,30,6,30,6,30,,,,,,,,,,,,Cartão de Crédito,Eduardo,5.04,Te Gusta,Julho
+28-Jul,Qui.,Jenifer,"Rua Dr. José Aires Neto, 257",,3735-8450,,1,75,,5,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Cartão de Crédito,,Eduardo,2.25,Folhadinho,Julho
+28-Jul,Qui.,Suely,Rua Dr. Silva Melo 132/ 607,,984757884,CEP 04675-010,15,92,,15,,,,,,,,,,,,,10,50,3,15,,,,,,,2,12,,,,,,,,,Dinheiro,,Eduardo,,Te Gusta,Julho
+29-Jul,Sex.,Carla,"Rua Ester Samara, 111/ 43A",,992935844,,12,62,,2,,,,,,,,,,,,,2,10,3,15,,,2,10,5,25,,,,,,,,,,,Cartão,,Eduardo,1.86,Te Gusta,Julho
+29-Jul,Sex.,Fábio,"Rua Dr. Armando Alcantara, 40",,96644-0429,Pedidos Já,10,63,,10,,,,,,,,,,,,,2,10,,,1,5,2,10,2,10,3,18,,,,,,,,,Voucher,,Carlos,2.52,Te Gusta,Julho
+29-Jul,Sex.,Maria Tereza,"Rua Auta de Souza, 6 Fundos",,2994-3583,CEP 02308-060,1,85,,15,,,1,70,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,,Eduardo,,Folhadinho,Julho
+29-Jul,Sex.,Raisa,"Rua Dominique Lagru, 71/ 44",JD Ester,972241297,,7,47,,5,,,,,,,,,,,,,,,,,1,5,2,10,1,5,2,12,1,10,,,,,,,Cartão de Crédito,,Eduardo,1.41,Te Gusta,Julho
+31-Jul,Dom.,Alexandra,"Rua Lucídio Marcondes de Souza, 179",,983179514,,5,25,,0,,,,,,,,,,,,,2,10,1,5,,,2,10,,,,,,,,,,,,,Dinheiro,,Carlos,,Te Gusta,Julho
+31-Jul,Dom.,Dr. Luiz,"Rua Afonso de Freitas, 451/12",,3051-8224,,3,220,,10,,,3,210,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Dinheiro,,Eduardo,,Folhadinho,Julho
+31-Jul,Dom.,Noemi,"Rua Dr. Mario Tavares, 65",,99727-8301,,6,41,,5,,,,,,,,,,,,,1,5,1,5,1,5,1,5,,,1,6,1,10,,,,,,,,,Eduardo,0,Te Gusta,Julho
