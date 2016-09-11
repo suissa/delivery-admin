@@ -1,0 +1,48 @@
+<form name="vm.referencePointForm" ng-submit="vm.save(vm.referencePoint)">
+  <fieldset class="row">
+    <div class="col-md-4 col-sm-6 form-group">
+      <label>CEP</label>
+      <input
+          type="text"
+          name="postalCode"
+          class="form-control"
+          placeholder="CEP"
+          size="50"
+          autocomplete="off"
+          required
+          ng-model="vm.referencePoint.postalCode"
+          ng-minlength="3"
+          maxlength="10">
+    </div>
+    <div class="col-md-4 col-sm-6 form-group">
+      <label>Número *</label>
+      <input
+          type="tel"
+          name="number"
+          class="form-control"
+          size="50"
+          autocomplete="off"
+          required
+          ng-model="vm.referencePoint.number"
+          maxlength="50">
+    </div>
+    <div class="col-md-4 col-sm-6 form-group">
+      <label>Ponto de Referência</label>
+      <input
+          type="text"
+          name="referencePoint"
+          required
+          class="form-control"
+          ng-model="vm.referencePoint.referencePoint">
+    </div>
+
+  </fieldset>
+  <fieldset class="row">
+    <div class="col-md-12">
+      <input type="submit"
+            ng-disabled="vm.referencePointForm.$invalid"
+            class="btn btn-primary"
+            value="Salvar" />
+    </div>
+  </fieldset>
+</form>

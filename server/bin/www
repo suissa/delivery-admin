@@ -1,9 +1,14 @@
+#!/usr/bin/env node
+
 'use strict';
 
 
 let debug = require('debug')('delivery-admin:controller:customer'),
     app   = require('../app');
 
-app.listen(app.get('port'), function() {
-  debug('app is up');
+let server = app.listen(app.get('port') || 8080, function() {
+  let host = server.address().address;
+  let port = server.address().port;
+
+  debug(`app listening at http://${host}:${port}, ${app.get('env')}`);
 });

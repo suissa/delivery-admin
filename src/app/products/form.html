@@ -1,0 +1,49 @@
+<form name="vm.productForm" ng-submit="vm.save(vm.product)">
+  <fieldset class="row">
+    <div class="col-md-6 col-sm-6 form-group">
+      <label>Nome *</label>
+      <input
+          type="text"
+          name="name"
+          class="form-control"
+          placeholder="Nome do Produto"
+          size="50"
+          autocomplete="off"
+          required
+          ng-model="vm.product.name"
+          ng-minlength="3"
+          maxlength="50">
+    </div>
+    <div class="col-md-6 col-sm-6 form-group">
+      <label>Preço *</label>
+      <input
+          type="tel"
+          name="price"
+          class="form-control"
+          placeholder="Preço do Produto"
+          size="50"
+          autocomplete="off"
+          required
+          ng-model="vm.product.price"
+          ui-money-mask
+          maxlength="50">
+    </div>
+    <div class="col-md-6 col-sm-6 form-group">
+      <label>Brinde</label>
+      <input
+          type="checkbox"
+          name="gift"
+          class="form-control"
+          ng-model="vm.product.gift">
+    </div>
+
+  </fieldset>
+  <fieldset class="row">
+    <div class="col-md-12">
+      <input type="submit"
+            ng-disabled="vm.productForm.$invalid"
+            class="btn btn-primary"
+            value="Salvar" />
+    </div>
+  </fieldset>
+</form>

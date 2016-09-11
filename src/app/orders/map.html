@@ -1,0 +1,20 @@
+<div id="map" map-lazy-load="{{ vm.googleMapsUrl }}"
+    map-lazy-load-params="{{ vm.googleMapsUrl }}">
+  <ng-map id="ng-map"
+      default-style="false"
+      center="{{ vm.organization.location }}"
+      zoom="{{ vm.zoom }}">
+
+      <marker
+        position="{{ vm.organization.location }}"
+        icon="{{ vm.organization.icon }}"></marker>
+
+      <marker
+        ng-repeat="marker in vm.markers track by $index"
+        position="{{ marker.position }}"
+        label="{{ marker.label }}"
+        icon="{{ marker.icon }}"
+        >
+      </marker>
+  </ng-map>
+</div>

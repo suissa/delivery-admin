@@ -1,0 +1,106 @@
+<div class="row order-print">
+  <section class="col-md-12">
+    <table class="order-print-table order-print-header">
+      <tr>
+        <td width="100%">{{ 'Te Gusta Empanadas' | uppercase }}</td>
+      </tr>
+      <tr>
+        <td width="100%">{{ 'Butantã - São Paulo' | uppercase }}</td>
+      </tr>
+      <tr>
+        <td width="100%">{{ 'cnpj 19.062.745/0001-03' | uppercase }}</td>
+      </tr>
+    </table>
+
+    <table class="order-print-table">
+      <tr><td>&nbsp;</td></tr>
+      <tr>
+        <td width="100%">
+          <b>{{ vm.order.customer.givenName }} {{ vm.order.customer.familyName }}</b>
+          {{ vm.order.customer.telephone || vm.order._customer.telephone }}
+        </td>
+      </tr>
+      <tr>
+        <td width="100%">{{ vm.order.shippingAddress.addressLocality }}</td>
+      </tr>
+      <tr>
+        <td width="100%">{{ vm.order.shippingAddress.postalCode }} - {{ vm.order.shippingAddress.district }}, {{ vm.order.shippingAddress.addressRegion }}</td>
+      </tr>
+      <tr>
+        <td width="100%">{{ vm.order.shippingAddress.streetAddress }}</td>
+      </tr>
+      <tr>
+        <td width="100%">Número: {{ vm.order.shippingAddress.number }}</td>
+      </tr>
+      <tr>
+        <td width="100%">{{ vm.order.shippingAddress.complement }}</td>
+      </tr>
+      <tr>
+        <td width="100%">{{ vm.order.shippingAddress.referencePoint }}</td>
+      </tr>
+      <tr><td>&nbsp;</td></tr>
+    </table>
+  </section>
+
+  <section class="col-md-12">
+    <table class="order-print-table">
+      <tr>
+        <th width="10%">Qtd</th>
+        <th width="70%">Item</th>
+        <th width="20%">Preço</th>
+      </tr>
+      <tr ng-repeat="item in vm.order.items">
+        <td>{{ item.quantity }}</td>
+        <td>{{ item.name }}</td>
+        <td class="align-right">{{ (item.subtotal = item.quantity * item.price) | currency }}</td>
+      </tr>
+      <tr><td colspan="3">&nbsp;</td></tr>
+      <tr ng-repeat="item in vm.order.gifts">
+        <td>{{ item.quantity }}</td>
+        <td>{{ item.name }}</td>
+        <td class="align-right">brinde</td>
+      </tr>
+      <tr><td colspan="3">&nbsp;</td></tr>
+      <tr>
+        <td colspan="2"><b>Taxa de entrega:</b></td>
+        <td class="align-right">{{ vm.order.delivery.price | currency }}</td>
+      </tr>
+      <tr ng-if="vm.order.payment.discount">
+        <td colspan="2"><b>Desconto:</b></td>
+        <td class="align-right">{{ vm.order.payment.discount | currency }}</td>
+      </tr>
+      <tr>
+        <td><b>Total:</b></td>
+        <td>{{ (vm.order.items | sum:'quantity') + (vm.order.gifts | sum:'quantity') }}</td>
+        <td class="align-right"><b>{{ vm.order.payment.total | currency }}</b></td>
+      </tr>
+      <tr ng-if="vm.order.payment.change">
+        <td><b>Troco:</b></td>
+        <td>{{ vm.order.payment.change | currency }}</td>
+        <td class="align-right">{{ vm.order.payment.moneyTotal | currency }}</td>
+      </tr>
+      <tr>
+        <td colspan="2"><b>Forma de pagamento:</b></td>
+        <td>{{ vm.order.payment.paymentType | translate }}</td>
+      </tr>
+      <tr><td colspan="3">&nbsp;</td></tr>
+    </table>
+  </section>
+
+  <section class="col-md-12">
+    <table class="order-print-table">
+      <tr>
+        <td width="40%"><b>Entregador:</b></td>
+        <td colspan="3" width="60%">{{ vm.order.delivery.courier }}</td>
+      </tr>
+      <tr>
+        <td><b>Data:</b></td>
+        <td colspan="3">{{ vm.order.createdAt | date:'dd/MM/yy HH:mm' }}</td>
+      </tr>
+      <tr>
+        <td><b>Entrega:</b></td>
+        <td colspan="3">{{ vm.order.delivery.date | date:'dd/MM/yy HH:mm' }}</td>
+      </tr>
+      <tr><td colspan="3">&nbsp;</td></tr>
+    </table>
+  </section>

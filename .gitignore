@@ -1,4 +1,5 @@
 .DS_Store
-coverage
+coverage*
 bower_components
-assets
+#assets
+node_modules

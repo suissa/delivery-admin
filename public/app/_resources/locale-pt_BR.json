@@ -1,0 +1,19 @@
+{
+  "customer not found": "Cliente não encontrado",
+  "order not found": "Pedido não encontrado",
+  "product not found": "Produto não encontrado",
+
+  "form.saved": "salvo com sucesso",
+  "customer": "Cliente",
+  "order": "Pedido",
+  "product": "Produto",
+  "referencePoint": "Ponto de Referência",
+
+  "DEBIT_CARD": "Débito",
+  "CREDIT_CARD": "Crédito",
+  "SODEXO": "Sodexo",
+  "MONEY": "Dinheiro",
+  "TICKET": "Ticket VR",
+
+  "Not Found": "Não Encontrado"
+}

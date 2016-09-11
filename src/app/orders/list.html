@@ -1,0 +1,63 @@
+<form name="vm.searchOrderForm"
+  class="search-form"
+  role="search"
+  ng-submit="state.go(state.current.name, { q: vm.q })"
+  novalidate>
+    <div class="input-group">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Nome do cliente"
+          autocomplete="off"
+          name="search"
+          ng-model="vm.q"
+          class="form-control">
+
+        <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit" ng-disabled="vm.searchOrderForm.$invalid">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+<button class="btn btn-secondary" ng-click="state.go('app.order')">+ Novo</button>
+
+<p ng-if="!vm.data.items.length">Nenhum pedido encontrado</p>
+
+<table class="table" ng-if="vm.data.items.length">
+  <thead>
+    <tr>
+      <td>Nome</td>
+      <td>Total</td>
+      <td>Data da entrega</td>
+      <td>Bairro</td>
+      <td>Entregador</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="pointer"
+      ng-repeat="order in vm.data.items"
+      ng-click="state.go('app.order', { id: order._id })">
+      <td>{{ order.customer.givenName }}</td>
+      <td>{{ order.payment.total | currency }}</td>
+      <td>{{ order.delivery.date | date:'dd/MM/yyyy HH:mm' }}</td>
+      <td>{{ order.shippingAddress.addressLocality }}</td>
+      <td>{{ order.delivery.courier }}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<ul uib-pagination
+  previous-text="&lsaquo;"
+  next-text="&rsaquo;"
+  last-text="&raquo;"
+  force-ellipses="true"
+  max-size="9"
+  items-per-page="10"
+  total-items="vm.data._metadata.total"
+  ng-if="vm.data._metadata.total > vm.data._metadata.perPage"
+  ng-model="vm.data._metadata.page"
+  ng-change="state.go(state.current, { page: vm.data._metadata.page })">
+</ul>

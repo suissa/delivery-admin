@@ -1,4 +1,8 @@
-<form name="vm.searchCustomerForm" role="search" ng-submit="vm.searchCustomer()" novalidate>
+<form name="vm.searchCustomerForm"
+  class="search-form"
+  role="search"
+  ng-submit="state.go(state.current.name, { q: vm.q })"
+  novalidate>
     <div class="input-group">
         <input
           type="text"
@@ -6,32 +10,47 @@
           placeholder="Telefone, email ou nome"
           autocomplete="off"
           name="search"
-          ng-model="vm.user"
+          ng-model="vm.q"
           class="form-control">
 
         <span class="input-group-btn">
             <button class="btn btn-primary" type="submit" ng-disabled="vm.searchCustomerForm.$invalid">
-                <i class="fa fa-search"></i>
+                <i class="fa fa-search" aria-hidden="true"></i>
             </button>
         </span>
     </div>
 </form>
 
-<button class="btn btn-secondary" ng-click="vm.goTo('app.customer')">+ Novo</button>
+<button class="btn btn-secondary" ng-click="state.go('app.customer')">+ Novo</button>
 
-<table class="table">
+<p ng-if="!vm.data.items.length">Nenhum cliente encontrado</p>
+
+<table class="table" ng-if="vm.data.items.length">
   <thead>
     <tr>
       <td>Nome</td>
       <td>Telefones</td>
-      <td>Email</td>
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="customer in vm.data">
+    <tr class="pointer"
+      ng-repeat="customer in vm.data.items"
+      ng-click="state.go('app.customer', { id: customer._id })">
       <td>{{ customer.givenName }}</td>
-      <td>{{ customer.telephones }}</td>
-      <td>{{ customer.email }}</td>
+      <td>{{ customer.telephone }}</td>
     </tr>
   </tbody>
 </table>
+
+<ul uib-pagination
+  previous-text="&lsaquo;"
+  next-text="&rsaquo;"
+  last-text="&raquo;"
+  force-ellipses="true"
+  max-size="9"
+  items-per-page="10"
+  total-items="vm.data._metadata.total"
+  ng-if="vm.data._metadata.total > vm.data._metadata.perPage"
+  ng-model="vm.data._metadata.page"
+  ng-change="state.go(state.current, { page: vm.data._metadata.page })">
+</ul>

@@ -7,11 +7,13 @@
     .config(config);
 
   /*@ngInject*/
-  function runBlock($rootScope, $state, $localStorage) {
+  function runBlock($rootScope, $state, $localStorage, NotificationService) {
     $rootScope.state = $state;
 
     var stateChangeStart = $rootScope.$on('$stateChangeStart', function (event, toState, toParams) {
       $rootScope.$storage = $localStorage;
+
+      NotificationService.close();
     });
   }
 
@@ -41,7 +43,7 @@
       url: '/dashboard',
       controller: 'DashboardController',
       controllerAs: 'vm',
-      templateUrl: '/_layout/dashboard.html',
+      templateUrl: '/dashboard/dashboard.html',
       data : {
         title: 'Dashboard'
       }

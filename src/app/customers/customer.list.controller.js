@@ -7,24 +7,14 @@
 
 
   /*@ngInject*/
-  function CustomerListController($state, CustomerService) {
+  function CustomerListController($state, $controller, RestService) {
     var vm = this;
 
-    vm.goTo = goTo;
-
-    CustomerService.list()
-      .then(function(response) {
-        vm.data = response.data.items;
+    RestService.endpoint = 'customers';
+    angular.extend(vm, $controller('GenericListController', {
+        vm: vm, $state: $state, service: RestService
       })
-      .catch(function(err) {
-        console.log(err);
-      });
-
-
-    function goTo(stateName) {
-      $state.go(stateName);
-      vm.data = {};
-    }
+    );
 
     return vm;
   }

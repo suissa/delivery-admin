@@ -1,0 +1,59 @@
+<form name="vm.searchOrderForm"
+  class="search-form"
+  role="search"
+  ng-submit="state.go(state.current.name, { q: vm.q })"
+  novalidate>
+    <div class="input-group">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="CEP"
+          autocomplete="off"
+          name="search"
+          ng-model="vm.q"
+          class="form-control">
+
+        <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit" ng-disabled="vm.searchOrderForm.$invalid">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+<button class="btn btn-secondary" ng-click="state.go('app.referencePoint')">+ Novo</button>
+
+<p ng-if="!vm.data.items.length">Nenhum ponto de referência encontrado</p>
+
+<table class="table" ng-if="vm.data.items.length">
+  <thead>
+    <tr>
+      <td>CEP</td>
+      <td>Número</td>
+      <td>Ponto de Referência</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="pointer"
+      ng-repeat="referencePoint in vm.data.items"
+      ng-click="state.go('app.referencePoint', { id: referencePoint._id })">
+      <td>{{ referencePoint.postalCode }}</td>
+      <td>{{ referencePoint.number }}</td>
+      <td>{{ referencePoint.referencePoint }}</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<ul uib-pagination
+  previous-text="&lsaquo;"
+  next-text="&rsaquo;"
+  last-text="&raquo;"
+  force-ellipses="true"
+  max-size="9"
+  items-per-page="10"
+  total-items="vm.data._metadata.total"
+  ng-if="vm.data._metadata.total > vm.data._metadata.perPage"
+  ng-model="vm.data._metadata.page"
+  ng-change="state.go(state.current, { page: vm.data._metadata.page })">
+</ul>

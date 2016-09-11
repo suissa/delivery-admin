@@ -1,27 +1,97 @@
-<a href="#/dashboard"
-  ui-sref="app.dashboard"
-  class="logo">
-  <img src="http://strudelfolhadinho.com.br/images/logo-strudel-folhadinho.png" width="170px" />
+<a class="sidebar-image-wrapper logo" ui-sref="app.dashboard" href="#/dashboard">
+    <img src="/assets/images/logo-strudel-folhadinho-vertical.png" alt="Strudel Folhadinho" />
 </a>
 
 <ul class="sidebar-nav">
-  <li class="sidebar-item">
-    <a href="#/customers"
-      ui-sref="app.customers"
-      ng-class="{'is-active': state.current.name.includes('app.customers')}"
-      class="sidebar-link">Clientes</a>
-  </li>
-  <li class="sidebar-item">
-    <a href="#/products"
-      ui-sref="app.products"
-      ng-class="{'is-active': state.current.name.includes('app.products')}"
-      class="sidebar-link">Produtos</a>
-  </li>
-  <li class="sidebar-item">
-    <a href="#/orders"
-      ui-sref="app.orders"
-      ng-class="{'is-active': state.current.name.includes('app.orders')}"
-      class="sidebar-link">Pedidos</a>
-  </li>
-</ul><!-- .sidebar-nav -->
 
+    <li class="sidebar-item">
+        <a
+        ng-class="{'is-active': state.current.name.includes('app.dashboard')}"
+        ui-sref="app.dashboard"
+        href="#/dashboard"
+        class="sidebar-link">
+            <span class="sidebar-icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+            </span>
+            <span class="sidebar-text">Home</span>
+        </a>
+    </li>
+
+    <li class="sidebar-item">
+        <a
+          ng-class="{'is-active': state.current.name.includes('app.customer')}"
+          href="#/customers"
+          ui-sref="app.customers"
+          class="sidebar-link">
+
+            <span class="sidebar-icon">
+                <i class="fa fa-users" aria-hidden="true"></i>
+            </span>
+            <span class="sidebar-text">Clientes</span>
+        </a>
+    </li>
+
+    <li class="sidebar-item">
+        <a
+        ng-class="{'is-active': state.current.name.includes('app.product')}"
+        ui-sref="app.products"
+        href="#/products"
+        class="sidebar-link">
+            <span class="sidebar-icon">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </span>
+            <span class="sidebar-text">Produtos</span>
+        </a>
+    </li>
+
+    <li class="sidebar-item">
+        <a
+        ng-class="{'is-active': state.current.name.includes('app.order')}"
+        ui-sref="app.orders"
+        href="#/orders"
+        class="sidebar-link">
+            <span class="sidebar-icon">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            </span>
+            <span class="sidebar-text">Pedidos</span>
+        </a>
+    </li>
+
+    <li class="sidebar-item">
+        <a
+        ng-class="{'is-active': state.current.name == 'app.map'}"
+        ui-sref="app.map"
+        href="#/map"
+        class="sidebar-link">
+            <span class="sidebar-icon">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </span>
+            <span class="sidebar-text">Mapa</span>
+        </a>
+    </li>
+
+    <li ng-class="{'is-active': state.current.name.includes('app.referencePoints')}"  class="sidebar-item">
+        <a ng-click="toogleMenuItem($event)"
+            class="sidebar-link">
+            <span class="sidebar-icon">
+                <i class="fa fa-map-pin" aria-hidden="true"></i>
+            </span>
+            <span class="sidebar-text">CEP</span>
+            <span class="sidebar-arrow">
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </span>
+        </a>
+        <ul class="sidebar-subnav">
+            <li  class="sidebar-item">
+                <a ng-class="{'is-active': state.current.name.includes('app.referencePoints')}"
+                    ui-sref="app.referencePoints"
+                    href="#/referencePoints"
+                    class="sidebar-sublink">
+                    <span class="sidebar-sublink-text">Pontos de Ref.</span>
+                </a>
+            </li>
+
+        </ul>
+    </li>
+
+</ul>

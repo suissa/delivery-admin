@@ -1,0 +1,190 @@
+<fieldset class="row" ng-if="!state.current.name.includes('app.customer')">
+  <legend class="col-md-12 col-sm-12">Cliente</legend>
+  <div class="col-md-12 col-sm-12">
+    <input type="text" class="form-control"
+      ng-model="vm.search"
+      ng-keyup="vm.autocompleteCustomer(vm.search)">
+  </div>
+  <div class="col-md-12 col-sm-12" ng-if="vm.order.customer.givenName">
+    Cliente: {{ vm.order.customer.givenName }}
+  </div>
+</fieldset>
+
+<fieldset class="row">
+  <legend class="col-md-12 col-sm-12">Pedido</legend>
+  <div class="col-md-12 col-sm-12 order-items-table">
+    <table class="table" border="0" cellspacing="0" cellpadding="0">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th width="100">Qnt</th>
+          <th width="50">Vl unit</th>
+          <th width="90">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="product in vm.items">
+          <td><label for="item-{{ $index }}">{{ product.name }}</label></td>
+          <td>
+            <input type="tel"
+              id="item-{{ $index }}"
+              autocomplete="off"
+              ng-model="product.quantity"
+              maxlength="2"
+              ui-number-mask="0"
+              class="form-control input-small" />
+          </td>
+          <td class="align-right">{{ product.price | currency }}</td>
+          <td>
+            <span ng-if="product.quantity">
+            {{ (product.total = (product.quantity || 0) * product.price) | currency }}
+            </span>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><b>Total:</b></td>
+          <td>{{ vm.items | sum:'quantity' }}</td>
+          <td></td>
+          <td>{{ vm.order.payment.subtotal = (vm.items | sum:'total') | currency }}</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</fieldset>
+
+<fieldset class="row">
+  <legend class="col-md-12 col-sm-12">Brinde</legend>
+  <div class="col-md-12 col-sm-12 order-items-table">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th width="100">Qnt</th>
+          <th width="50">Vl unit</th>
+          <th width="90">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="product in vm.gifts | filter:{ gift: true }">
+          <td><label for="gift-{{ $index }}">{{ product.name }}</label></td>
+          <td>
+            <input type="tel"
+              id="gift-{{ $index }}"
+              autocomplete="off"
+              ng-model="product.quantity"
+              maxlength="2"
+              ui-number-mask="0"
+              class="form-control input-small" />
+          </td>
+          <td>Brinde</td>
+          <td></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td><b>Total:</b></td>
+          <td>{{ vm.gifts | sum:'quantity' }}</td>
+          <td></td>
+          <td>Grátis</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</fieldset>
+
+<fieldset class="row">
+  <div class="col-md-3 col-sm-3 col-xs-6 form-group">
+    <label>Dia de entrega</label>
+
+    <input type="text" class="form-control"
+        uib-datepicker-popup="dd/MM/yyyy"
+        ng-model="vm.order.delivery.date"
+        is-open="deliveryDate.opened"
+        datepicker-options="vm.deliveryDateOptions"
+        ng-required="true"
+        close-text="Fechar"
+        show-button-bar="false"
+        ng-focus="deliveryDate.opened = true" />
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6 form-group">
+    <div uib-timepicker
+        class="timepicker"
+        ng-model="vm.order.delivery.date"
+        show-seconds="false"
+        meridians="['AM', 'PM']"></div>
+
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6 form-group">
+    <label>Taxa de entrega</label>
+    <input
+        type="tel"
+        class="form-control"
+        size="50"
+        autocomplete="off"
+        ng-model="vm.order.delivery.price"
+        ng-minlength="3"
+        ui-money-mask
+        value="5.0"
+        max="100"
+        maxlength="9">
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6 form-group">
+    <label>Entregador</label>
+    <select class="form-control" ng-model="vm.order.delivery.courier">
+        <option value="Eduardo">Eduardo</option>
+        <option value="Kleber">Kleber</option>
+        <option value="Edson">Edson</option>
+        <option value="Carlos">Carlos</option>
+        <option value="William">William</option>
+        <option value="Juliana">Juliana</option>
+    </select>
+  </div>
+</fieldset>
+<fieldset class="row">
+  <div class="col-md-3 col-sm-3">
+    <label>Forma de Pagamento</label>
+    <select class="form-control"
+        ng-change="vm.changePaymentType(vm.order.payment)"
+        ng-model="vm.order.payment.paymentType">
+      <option value="DEBIT_CARD">{{ 'DEBIT_CARD' | translate }}</option>
+      <option value="CREDIT_CARD">{{ 'CREDIT_CARD' | translate }}</option>
+      <option value="SODEXO">{{ 'SODEXO' | translate }}</option>
+      <option value="MONEY">{{ 'MONEY' | translate }}</option>
+      <option value="TICKET">{{ 'TICKET' | translate }}</option>
+    </select>
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6">
+    <label>Desconto</label>
+    <input class="form-control"
+      ui-money-mask
+      ng-model="vm.order.payment.discount">
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6" ng-if="vm.order.payment.paymentType == 'MONEY'">
+    <label>Pago em Dinheiro</label>
+    <input class="form-control"
+      ui-money-mask
+      ng-model="vm.order.payment.moneyTotal">
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6" ng-if="vm.order.payment.paymentType == 'MONEY'">
+    <label>Troco: </label>
+    <p class="form-control">
+      {{
+        vm.order.payment.change = (
+          vm.order.payment.moneyTotal - vm.order.payment.total + vm.order.payment.discount
+        ) | currency
+      }}
+    </p>
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-6">
+    <label>Total: </label>
+    <p class="form-control">
+      {{
+        vm.order.payment.total = (
+          vm.order.payment.subtotal + vm.order.delivery.price - vm.order.payment.discount
+        ) | currency
+      }}
+      </p>
+  </div>
+</fieldset>

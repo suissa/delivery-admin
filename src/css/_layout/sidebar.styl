@@ -1,0 +1,119 @@
+
+.sidebar
+    position relative
+    float left
+
+.sidebar,
+.sidebar-full
+    width 200px
+    height 100%
+
+.sidebar-full
+    background #722872
+    background-image linear-gradient(180deg, #606, #722872 300px)
+    position fixed
+    left 0
+    top 0
+
+.sidebar-image-wrapper
+    text-align center
+    display block
+
+.sidebar-image-wrapper img
+  width 100%
+  height auto
+
+
+.sidebar-nav
+    color #fff
+    padding 0
+
+.sidebar-link
+    display block
+    font-size 16px
+    padding 10px 15px
+    color #fff
+
+.sidebar-link.is-active,
+.sidebar-link:focus,
+.sidebar-link:hover
+    background rgba(0, 0, 0, .2)
+    color #c7e082
+
+.sidebar-link:focus
+    outline none
+
+.sidebar-sublink
+    display block
+    font-size 15px
+    padding 10px 0 10px 58px
+    color #f4f4f4
+
+.sidebar-sublink.is-active,
+.sidebar-sublink:focus,
+.sidebar-sublink:hover
+    background rgba(0, 0, 0, .3)
+
+.sidebar-arrow
+    float right
+    transition transform .5s
+    transform rotate(0deg)
+
+.is-active .sidebar-arrow
+    transform rotate(180deg)
+
+.sidebar-subnav
+    padding 0
+    height 0
+    overflow hidden
+    transition transform .5s
+    background rgba(0, 0, 0, .2)
+
+.is-active .sidebar-subnav
+    height auto
+
+.sidebar-icon
+    margin-right 1rem
+    min-width 1.5rem
+    display inline-block
+    text-align center
+
+.sidebar-label
+    float right
+
+.sidebar-text
+    font-weight 500
+
+
+
+
+.sidebar-button
+  color #a6ce39
+  display none
+  font-size 20px
+  padding-right 20px
+  cursor pointer
+
+
+.sidebar-button:hover
+  color #722872
+
+
+
+@media only screen and (max-width 1050px)
+
+  .sidebar-button
+    display block
+
+  .sidebar
+    position fixed
+    left 0
+    top 0
+    z-index 999
+    transition transform .5s
+    transform translate(-200px)
+
+  .sidebar.is-open
+    transform translate(0)
+
+

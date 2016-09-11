@@ -1,0 +1,237 @@
+<fieldset class="row">
+  <div class="col-md-3 col-sm-6 col-xs-6 form-group">
+    <label>Nome *</label>
+    <input
+        type="text"
+        name="givenName"
+        class="form-control"
+        placeholder="Nome do Cliente"
+        size="50"
+        autocomplete="off"
+        required
+        ng-model="vm.customer.givenName"
+        ng-minlength="3"
+        maxlength="50">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6 form-group">
+    <label>Sobrenome</label>
+    <input
+        type="text"
+        name="familyName"
+        class="form-control"
+        placeholder="Sobrenome do Cliente"
+        size="50"
+        autocomplete="off"
+        ng-model="vm.customer.familyName"
+        ng-minlength="3"
+        maxlength="50">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12 form-group">
+    <label>Telefone</label>
+    <input
+        type="tel"
+        name="telephone"
+        class="form-control"
+        size="11"
+        autocomplete="off"
+        ui-br-phone-number
+        ng-model="vm.customer.telephone"
+        maxlength="15">
+  </div>
+<!--
+  <div class="col-md-3 col-sm-6 form-group">
+    <label>CPF</label>
+    <input
+        type="text"
+        name="cpf"
+        class="form-control"
+        placeholder="Ex: 000.000.000-00"
+        size="50"
+        autocomplete="off"
+        ui-br-cpf-mask
+        ng-model="vm.customer.cpf"
+        maxlength="25">
+  </div>
+  <div class="col-md-2 col-sm-6 form-group">
+    <label>Apelido</label>
+    <input
+        type="text"
+        name="nickName"
+        class="form-control"
+        placeholder="Apelido do Cliente"
+        size="50"
+        autocomplete="off"
+        ng-model="vm.customer.nickName"
+        ng-minlength="3"
+        maxlength="50">
+  </div>
+  <div class="col-md-2 col-sm-6 form-group">
+    <label>Sexo</label>
+    <select
+        name="gender"
+        class="form-control"
+        ng-model="vm.customer.gender">
+        <option value="F">Feminino</option>
+        <option value="M">Masculino</option>
+    </select>
+  </div>
+  <div class="col-md-3 col-sm-6 form-group">
+    <label>E-mail</label>
+    <input
+        type="email"
+        name="email"
+        class="form-control"
+        placeholder="Ex: cliente@tegustaempanadas.com.br"
+        size="100"
+        autocomplete="off"
+        ng-model="vm.customer.email"
+        ng-minlength="3"
+        maxlength="100">
+  </div>
+  <div class="col-md-2 col-sm-6 form-group">
+    <label>Data de Nasc</label>
+
+    <input type="text" class="form-control"
+        maxlength="10"
+        uib-datepicker-popup="dd/MM/yyyy"
+        ng-model="vm.customer.birthDate"
+        is-open="birthDate.opened"
+        datepicker-options="vm.dateOptions"
+        close-text="Fechar"
+        show-button-bar="false"
+        ng-focus="birthDate.opened = true" />
+  </div>
+-->
+</fieldset>
+<fieldset class="row">
+  <legend class="col-md-12 col-sm-12">Endereço de entrega</legend>
+  <div class="col-md-2 col-sm-6 col-xs-12 form-group">
+    <label>CEP</label>
+    <input
+        type="tel"
+        name="address[postalCode]"
+        class="form-control"
+        size="9"
+        autocomplete="off"
+        ui-br-cep-mask
+        ng-model="vm.customer.address.postalCode"
+        ng-minlength="9"
+        ng-keyup="vm.findByPostalCode(vm.customer.address.postalCode)"
+        ng-blur="vm.findByPostalCode(vm.customer.address.postalCode)"
+        maxlength="9">
+  </div>
+  <div class="col-md-5 col-sm-6 col-xs-12 form-group">
+    <label>Rua</label>
+    <input
+        type="text"
+        name="address[streetAddress]"
+        class="form-control"
+        size="100"
+        autocomplete="off"
+        ng-model="vm.customer.address.streetAddress"
+        ng-minlength="3"
+        ng-disabled="vm.disableAddressFields"
+        maxlength="100">
+  </div>
+  <div class="col-md-2 col-sm-6 col-xs-6 form-group">
+    <label>Número</label>
+    <input
+        type="tel"
+        name="address[number]"
+        class="form-control"
+        size="100"
+        autocomplete="off"
+        ng-model="vm.customer.address.number"
+        ng-blur="vm.findReferencePoint(vm.customer.address)"
+        placeholder="Ex: 206"
+        maxlength="100">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6 form-group">
+    <label>Complemento</label>
+    <input
+        type="text"
+        name="address[complement]"
+        class="form-control"
+        size="50"
+        autocomplete="off"
+        placeholder="Ex: ap 51 bloco A"
+        ng-model="vm.customer.address.complement"
+        maxlength="50">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6 form-group">
+    <label>Estado</label>
+    <select
+        name="addressRegion"
+        class="form-control"
+        name="address[addressRegion]"
+        ng-model="vm.customer.address.addressRegion"
+        ng-disabled="vm.disableAddressFields"
+        required>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espirito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+    </select>
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-6 form-group">
+    <label>Cidade</label>
+    <input
+        type="text"
+        name="address[district]"
+        class="form-control"
+        size="100"
+        autocomplete="off"
+        ng-model="vm.customer.address.district"
+        ng-minlength="3"
+        ng-disabled="vm.disableAddressFields"
+        value="São Paulo"
+        maxlength="100">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12 form-group">
+    <label>Bairro</label>
+    <input
+        type="text"
+        name="address[addressLocality]"
+        class="form-control"
+        size="100"
+        autocomplete="off"
+        ng-model="vm.customer.address.addressLocality"
+        ng-minlength="3"
+        ng-disabled="vm.disableAddressFields"
+        maxlength="100">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12 form-group">
+    <label>Referência</label>
+    <input
+        type="text"
+        name="address[referencePoint]"
+        class="form-control"
+        size="50"
+        autocomplete="off"
+        ng-model="vm.customer.address.referencePoint"
+        maxlength="50">
+  </div>
+</fieldset>

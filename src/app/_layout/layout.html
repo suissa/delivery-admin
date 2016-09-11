@@ -1,9 +1,15 @@
-<aside class="sidebar">
-  <div ng-include="'/_layout/sidebar.html'"></div>
+<app-notification class="alert-fixed"></app-notification>
+
+<aside class="sidebar {{ $root.isOpenMenu ? 'is-open' : 'is-closed'}}">
+  <div class="sidebar-full" ng-include="'/_layout/sidebar.html'"></div>
 </aside><!-- .sidebar -->
-<main class="main">
+
+<main class="main {{ $root.isOpenMenu ? 'is-open' : 'is-closed'}}" ng-click="closeMenu($event)">
   <div ng-include="'/_layout/header.html'"></div>
 
+    <p class="alert alert-success" ng-if="vm.alert">
+      <strong>Success!</strong> Indicates a successful or positive action.
+    </p>
 
-  <article ui-view id="view"></article>
+  <article class="content" ui-view id="view"></article>
 </main><!-- .main -->

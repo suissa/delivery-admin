@@ -1,0 +1,41 @@
+.alert
+  position relative
+
+
+.alert .fa
+  float left
+  margin-top 1px
+  margin-right 5px
+  font-size 16px
+
+
+.alert-close
+  position absolute
+  cursor pointer
+  top 15px
+  right 10px
+  border none
+  background none
+  font-size 18px
+
+
+.alert .fa-close
+  font-size 14px
+
+
+.alert-fixed
+  position fixed
+  min-width 80%
+  top 10px
+  left 50%
+  transform translateX(-50%)
+  z-index 10
+
+
+.alert-fixed .alert
+  margin-bottom 0
+  padding-bottom 10px
+
+@media (min-width: 800px)
+  .alert-fixed
+    min-width 50%
