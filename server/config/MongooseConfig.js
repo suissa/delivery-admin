@@ -12,7 +12,7 @@ function _connection(vars) {
       database  = vars.MONGO_DATABASE || config.get('mongo.database'),
 
       auth = username ? /* istanbul ignore next */ username + ':' + password + '@' : '';
-
+  console.log('mongodb://' + auth + host + ':' + port + '/' + database)
   return 'mongodb://' + auth + host + ':' + port + '/' + database;
 }
 

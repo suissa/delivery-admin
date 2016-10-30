@@ -59,20 +59,18 @@ module.exports = Repository
 Porém ainda podemos deixar mais genérico ainda, basta criarmos o arquivo `config.js` dentro da pasta do módulo e nele teremos, basicamente:
 
 ```js
-const mongoose = require('../../config/MongooseConfig.js')
-const schema = require('./schema')
-const controller = require('./controller')
-const routes = require('./routes')
-const repository = require('./repository')
-const name = __dirname.split('/').reverse()[0] // 'Order'
+const SCHEMA = './schema'
+const CONTROLLER = './controller'
+const ROUTES = './routes'
+const REPOSITORY = './repository'
+const NAME = __dirname.split('/').reverse()[0] // 'Customer'
 
 module.exports = {
-  mongoose,
-  schema,
-  name,
-  controller,
-  repository,
-  routes
+  SCHEMA,
+  NAME,
+  CONTROLLER,
+  REPOSITORY,
+  ROUTES
 }
 ```
 
@@ -83,13 +81,21 @@ Agora olhe como ficou o `repository.js`:
 ```js
 const config = require('./config')
 const mongoose = require('mongoose')
-const schema = config.schema
-const name = config.name
+const schema = require(config.SCHEMA)
+const name = config.NAME
 
-const Repository  = mongoose.model(name, schema)
-
-module.exports = Repository
+module.exports = mongoose.model(name, schema)
 ```
+
+**Refatorando mais um pouquinho podemos deixar assim:**
+
+```js
+const config = require('./config')
+
+module.exports = require('mongoose').model(config.NAME, require(config.SCHEMA))
+```
+
+> Muito mais simples e genérico, não?!
 
 > Dessa forma basicamente **todos os `repository.js` terão esse mesmo código!**
 
@@ -158,13 +164,14 @@ E a rota de cada módulo ficará assim:
 
 ```js
 const config = require('./config')
+const Controller = require(config.CONTROLLER)
 const router = require('express').Router()
 
-router.get('/', config.CONTROLLER.list)
-router.get('/:_id', config.CONTROLLER.byId)
-router.post('/', config.CONTROLLER.create)
-router.put('/:_id', config.CONTROLLER.update)
-router.delete('/:_id', config.CONTROLLER.remove)
+router.get('/', Controller.list)
+router.get('/:_id', Controller.byId)
+router.post('/', Controller.create)
+router.put('/:_id', Controller.update)
+router.delete('/:_id', Controller.remove)
 
 module.exports = router
 ```
@@ -177,6 +184,40 @@ Pois bem, esse arquivo de rotas **será igual para todos os módulos**, no iníc
 
 
 ### Mongoose
+
+O Mongoose possui uma funcionalidade interessante para melhorarmos o desempenho de algumas buscas, é o [lean](http://www.tothenew.com/blog/high-performance-find-query-using-lean-in-mongoose-2/) que simplesmente retorna o resultado como JSON puro e não atrelado de funcionalidades do *Model*, por isso iremos **SEMPRE** adiciona-lo na função `list` do nosso CRUD.
+
+O código no *Controller* está assim:
+
+```js
+repository.find(query).limit(size).skip(size * (page - 1))
+```
+
+E deverá ficar assim:
+
+```js
+repository.find(query).lean().limit(size).skip(size * (page - 1))
+```
+
+Por mais que estejamos fazendo a busca com um `limit` definido ela ainda sim será mais rápida do que sem o `lean`. Caso você não utilize o `limit` na sua função de `list` a utilização do `lean` é **mais que obrigatória**.
+
+#### Schema
+
+```js
+const mongoose = require('mongoose')
+
+const _schema = mongoose.Schema({
+  name: { type: String, trim: true, required: true },
+  price: { type: Number, required: true },
+  gift: { type: Boolean }
+});
+
+// Usamos o _schema pois podemos adicionar mais
+// funcionalidades como methods, virtuals, etc
+
+module.exports = _schema
+```
+#### Atomic Design
 
 **Refatoração NÃO OBRIGATÓRIA!!!**
 

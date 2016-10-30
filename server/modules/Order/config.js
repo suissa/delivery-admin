@@ -1,17 +1,15 @@
-const mongoose = require('../../config/MongooseConfig.js')
-const schema = require('./schema')
-const controller = require('./controller')
-const routes = require('./routes')
-const repository = require('./repository')
-const name = __dirname.split('/').reverse()[0] // 'Order'
-const FIELDS_PATH = '../../fields/'
+const SCHEMA = './schema'
+const CONTROLLER = './controller'
+const ROUTES = './routes'
+const REPOSITORY = './repository'
+const NAME = __dirname.split('/').reverse()[0]
+const FIELDS_PATH = './../../fields/'
 
 module.exports = {
-  mongoose,
-  schema,
-  name,
-  controller,
-  repository,
-  routes,
+  SCHEMA,
+  NAME,
+  CONTROLLER,
+  REPOSITORY,
+  ROUTES,
   FIELDS_PATH
 }

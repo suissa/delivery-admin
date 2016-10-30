@@ -1,13 +1,11 @@
-'use strict';
+const config = require('./config')
+const Controller = require(config.CONTROLLER)
+const router = require('express').Router()
 
-let router              = require('express').Router(),
-    ProductController   = require('../../controller/ProductController');
+router.get('/', Controller.list)
+router.get('/:_id', Controller.byId)
+router.post('/', Controller.create)
+router.put('/:_id', Controller.update)
+router.delete('/:_id', Controller.remove)
 
-
-router.get('/', ProductController.list);
-router.get('/:_id', ProductController.byId);
-router.post('/', ProductController.create);
-router.put('/:_id', ProductController.update);
-router.delete('/:_id', ProductController.remove);
-
-module.exports = router;
+module.exports = router

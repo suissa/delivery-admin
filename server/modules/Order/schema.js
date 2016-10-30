@@ -1,6 +1,5 @@
-const mongoose = require('../../config/MongooseConfig');
-const config = require('config')
-
+const mongoose = require('mongoose')
+const config = require('./config')
 const name = require(config.FIELDS_PATH + 'name')
 
 const OrderSchema = mongoose.Schema({
@@ -51,7 +50,7 @@ const OrderSchema = mongoose.Schema({
       lng: { type: Number }
     }
   }
-});
+})
 
 
-module.exports = OrderSchema;
+module.exports = OrderSchema

@@ -2,7 +2,8 @@ const SCHEMA = './schema'
 const CONTROLLER = './controller'
 const ROUTES = './routes'
 const REPOSITORY = './repository'
-const NAME = __dirname.split('/').reverse()[0] // 'Customer'
+const NAME = __dirname.split('/').reverse()[0]
+
 
 module.exports = {
   SCHEMA,

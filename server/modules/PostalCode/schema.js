@@ -1,16 +1,13 @@
-'use strict';
+const mongoose = require('mongoose')
 
-let mongoose = require('../config/MongooseConfig');
-
-
-let PostalCodeSchema = mongoose.Schema({
+const _schema = mongoose.Schema({
   postalCode: { type: Number, maxlength: 8 },
   streetAddress: { type: String },
   addressLocality: { type: String },
   district: { type: String },
   addressRegion: { type: String },
   ibge: { type: Number }
-});
+})
 
 
-module.exports = PostalCodeSchema;
+module.exports = _schema
