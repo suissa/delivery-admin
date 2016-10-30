@@ -54,7 +54,7 @@ describe('notification.service', function () {
     var result = service.getLocation(shippingAddress);
     $httpBackend.flush();
 
-    expect(result.$$state.value.data).toEqual({ results: [ { geometry: { location: {lat: 43, lng: 23} } } ] });
+    expect(result.$$state.value).toEqual({lat: 43, lng: 23});
   });
 
 }); //describe

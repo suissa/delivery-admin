@@ -20,10 +20,16 @@
       },
 
       getLocation: function(shippingAddress) {
+        var GMAPS_API = 'https://maps.google.com/maps/api/geocode/json?address=';
+        var address = shippingAddress.streetAddress + ',' + shippingAddress.number;
+
         return HTTPService
-          .get('https://maps.google.com/maps/api/geocode/json?address=' +
-              shippingAddress.streetAddress + ',' + shippingAddress.number + '&sensor=true')
-          .then(HTTPService.handleError);
+          .get(GMAPS_API + address + '&sensor=true', {}, { cache: true })
+          .then(HTTPService.handleError)
+          .then(function(response) {
+            var data = response.data;
+            return data.results[0].geometry.location;
+          });
       }
     };
 

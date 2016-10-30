@@ -71,10 +71,8 @@
         return false;
       }
       PostalCodeService.getLocation(shippingAddress)
-        .then(function(response) {
-          var data = response.data;
-          vm.customer.address.location = data.results[0].geometry.location;
-          console.log('vm.customer.address.location', vm.customer.address.location);
+        .then(function(location) {
+          vm.customer.address.location = location;
         });
 
       PostalCodeService.findReferencePoint(shippingAddress)
