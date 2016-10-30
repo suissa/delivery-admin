@@ -18,6 +18,10 @@ app.set('port', process.env.PORT || 3000);
 app.disable('etag');
 app.disable('x-powered-by');
 
+app.use((req, res, next) => {
+  res.setHeader('X-Powered-By', 'ASP.Net')
+  next();
+});
 
 app.use(bodyParser.text());
 app.use(bodyParser.json());
