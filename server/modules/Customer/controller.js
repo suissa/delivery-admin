@@ -1,11 +1,11 @@
-'use strict';
+const config = require('./config')
 
-let bluebird = require('bluebird');
-let debug = require('debug')('delivery-admin:controller:order');
-let repository = require('../repository/OrderRepository');
+const bluebird = require('bluebird');
+const debug = require('debug')('delivery-admin:controller:customer');
+const repository = require(config.REPOSITORY);
 const PER_PAGE = 10;
 
-let OrderController = {
+const CustomerController = {
   list: function(request, response, next) {
     let query = {};
     let page = parseInt(request.query.page || 1, 10);
@@ -14,17 +14,17 @@ let OrderController = {
       let search = new RegExp(request.query.q, 'i');
       query = {
         $or: [
-          { 'customer.givenName': search }
+          { givenName: search },
+          { telephone: search },
+          { email: search },
+          { 'address.postalCode': search }
         ]
       };
     }
     debug('query', query);
 
     bluebird.all([
-      repository.find(query)
-        .sort({ 'delivery.date': -1 })
-        .limit(PER_PAGE)
-        .skip(PER_PAGE * (page - 1)),
+      repository.find(query).lean().limit(PER_PAGE).skip(PER_PAGE * (page - 1)),
       repository.count(query)
     ])
     .then(function(results) {
@@ -47,24 +47,22 @@ let OrderController = {
   byId: function(request, response, next) {
     let _id = request.params._id;
     repository.findOne({ _id: _id })
-    .populate('_customer')
     .then(function(result) {
       if (!result) {
-        let err = new Error('order not found');
+        let err = new Error('customer not found');
         err.status = 404;
         throw err;
       }
       return result;
     })
     .then(function(result) {
-      debug('result', result);
       response.json(result);
     })
     .catch(next);
   },
   create: function(request, response, next) {
-    let order = new repository(request.body);
-    order.save()
+    let customer = new repository(request.body);
+    customer.save()
       .then(function(result) {
         response.status(201).json(result);
       })
@@ -84,11 +82,11 @@ let OrderController = {
   remove: function(request, response, next) {
     let _id = request.params._id;
     repository.remove({ _id: _id })
-    .then(function(result) {
+    .then(function(err, result) {
       response.sendStatus(204);
     })
     .catch(next);
   }
 };
 
-module.exports = OrderController;
+module.exports = CustomerController;
