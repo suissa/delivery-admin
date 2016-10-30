@@ -59,20 +59,19 @@ module.exports = Repository
 Porém ainda podemos deixar mais genérico ainda, basta criarmos o arquivo `config.js` dentro da pasta do módulo e nele teremos, basicamente:
 
 ```js
-const mongoose = require('../../config/MongooseConfig.js')
-const schema = require('./schema')
-const controller = require('./controller')
-const routes = require('./routes')
-const repository = require('./repository')
-const name = __dirname.split('/').reverse()[0] // 'Order'
+const SCHEMA = './schema'
+const CONTROLLER = './controller'
+const ROUTES = './routes'
+const REPOSITORY = './repository'
+const NAME = __dirname.split('/').reverse()[0] // 'Customer'
+
 
 module.exports = {
-  mongoose,
-  schema,
-  name,
-  controller,
-  repository,
-  routes
+  SCHEMA,
+  NAME,
+  CONTROLLER,
+  REPOSITORY,
+  ROUTES
 }
 ```
 
@@ -83,12 +82,13 @@ Agora olhe como ficou o `repository.js`:
 ```js
 const config = require('./config')
 const mongoose = require('mongoose')
-const schema = config.schema
-const name = config.name
+const schema = require(config.SCHEMA)
+const name = config.NAME
 
 const Repository  = mongoose.model(name, schema)
 
 module.exports = Repository
+
 ```
 
 > Dessa forma basicamente **todos os `repository.js` terão esse mesmo código!**
