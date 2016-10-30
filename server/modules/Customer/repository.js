@@ -1,6 +1,7 @@
-const mongoose = require('../../config/MongooseConfig.js')
-const schema = require('./schema')
-const name = 'Customer'
+const config = require('./config')
+const mongoose = require('mongoose')
+const schema = require(config.SCHEMA)
+const name = config.NAME
 
 const Repository  = mongoose.model(name, schema)
 
