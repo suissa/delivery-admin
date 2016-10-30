@@ -174,6 +174,7 @@ router.post('/', Controller.create)
 router.put('/:_id', Controller.update)
 router.delete('/:_id', Controller.remove)
 
+
 module.exports = router
 ```
 

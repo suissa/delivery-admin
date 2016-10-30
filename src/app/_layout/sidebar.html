@@ -70,8 +70,9 @@
         </a>
     </li>
 
-    <li ng-class="{'is-active': state.current.name.includes('app.referencePoints')}"  class="sidebar-item">
-        <a ng-click="toogleMenuItem($event)"
+    <li ng-class="{'is-active': state.current.name.includes('app.referencePoints') || vm.referencePointsMenu}"
+        class="sidebar-item">
+        <a ng-click="vm.referencePointsMenu = !vm.referencePointsMenu"
             class="sidebar-link">
             <span class="sidebar-icon">
                 <i class="fa fa-map-pin" aria-hidden="true"></i>

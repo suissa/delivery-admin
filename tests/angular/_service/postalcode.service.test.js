@@ -1,13 +1,12 @@
 'use strict';
 
-describe('notification.service', function () {
+describe('postalcode.service', function () {
   beforeEach(module('app'));
 
-  var $rootScope, $httpBackend, service;
+  var $httpBackend, service;
 
   beforeEach(inject(before));
-  beforeEach(inject(function(_$rootScope_, _$httpBackend_, PostalCodeService) {
-    $rootScope = _$rootScope_;
+  beforeEach(inject(function(_$httpBackend_, PostalCodeService) {
     $httpBackend = _$httpBackend_;
     service = PostalCodeService;
   }));
@@ -44,7 +43,7 @@ describe('notification.service', function () {
   it('#getLocation', function() {
     $httpBackend
       .when('GET', 'https://maps.google.com/maps/api/geocode/json?address=Av. Paulista,1000&sensor=true')
-      .respond(200, { results: [ { geometry: { location: {lat: 43, lng: 23} } } ] });
+      .respond(200, { results: [LOCATION] });
 
     var shippingAddress = {
       streetAddress: 'Av. Paulista',

@@ -17,4 +17,32 @@ describe('app.controller', function () {
 
     expect(controller).toBeDefined();
   });
+
+  it('#toggleMenu', function() {
+    spyOn(EVENT, 'stopPropagation');
+
+    var controller = $controller('AppController', { $rootScope: $rootScope, $scope: $scope });
+
+    expect($rootScope.isOpenMenu).toBeFalsy();
+    controller.toggleMenu(EVENT);
+    expect($rootScope.isOpenMenu).toBeTruthy();
+    expect(EVENT.stopPropagation).toHaveBeenCalled();
+  });
+
+  it('#closeMenu', function() {
+    var controller = $controller('AppController', { $rootScope: $rootScope, $scope: $scope });
+
+    $rootScope.isOpenMenu = true;
+    controller.closeMenu();
+    expect($rootScope.isOpenMenu).toBeFalsy();
+  });
+
+  it('#on stateChangeStart', function() {
+    var controller = $controller('AppController', { $rootScope: $rootScope, $scope: $scope });
+    spyOn(controller, 'closeMenu')
+    $rootScope.$broadcast('stateChangeStart');
+    $scope.$apply();
+    expect(controller.closeMenu).toHaveBeenCalled();
+  });
+
 }); //describe

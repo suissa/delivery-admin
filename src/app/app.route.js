@@ -25,6 +25,7 @@
     $urlRouterProvider.otherwise('/dashboard');
 
     // disable debug info in prod
+    /* istanbul ignore if */
     if (!location.port) {
       $compileProvider.debugInfoEnabled(false);
     }

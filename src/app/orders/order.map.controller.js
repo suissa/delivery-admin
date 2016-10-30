@@ -31,7 +31,6 @@
             return item.shippingAddress.location;
           })
           .map(function(item) {
-            console.log('item', item);
             return {
               label: item.customer.givenName,
               position: [item.shippingAddress.location.lat, item.shippingAddress.location.lng]

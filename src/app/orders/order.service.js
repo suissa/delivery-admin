@@ -27,13 +27,11 @@
       normalizeDeliveryDate: function(deliveryDate) {
         return deliveryDate ? new Date(deliveryDate) : '';
       },
-      save: function(order) {
-
-      },
 
       getDateOptions: function() {
         return {
           formatYear: 'yy',
+          maxDate: new Date(2020, 5, 22),
           minDate: new Date(),
           startingDay: 1,
           showWeeks: false

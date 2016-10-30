@@ -12,8 +12,8 @@ global.POSTAL_CODE = {
 };
 
 global.REFERENCE_POINT = {
-  postalCode: 5323001,
-  number: 1632,
+  postalCode: 1310000,
+  number: 1000,
   referencePoint: 'Condomínio Story'
 };
 
@@ -30,6 +30,7 @@ global.GIFT = {
 };
 
 global.ORDER = {
+  _customer: '57f37e574295dc4dc9f84fed',
   customer: {
     _id: '57f37e574295dc4dc9f84fed',
     givenName: 'Jane'

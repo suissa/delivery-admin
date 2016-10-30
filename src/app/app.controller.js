@@ -10,7 +10,6 @@
       var vm = $scope;
 
       vm.toggleMenu = toggleMenu;
-      vm.toogleMenuItem = toogleMenuItem;
       vm.closeMenu = closeMenu;
 
       $rootScope.isOpenMenu = false;
@@ -22,16 +21,6 @@
       function toggleMenu($event) {
         $event.stopPropagation();
         $rootScope.isOpenMenu = !$rootScope.isOpenMenu;
-      }
-
-      function toogleMenuItem($event) {
-        var $parent = angular.element($event.target).parent();
-
-        if ($parent.hasClass('is-active')) {
-          $parent.removeClass('is-active');
-        } else {
-          $parent.addClass('is-active');
-        }
       }
 
       function closeMenu() {

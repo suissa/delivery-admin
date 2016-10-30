@@ -1,14 +1,3 @@
-<fieldset class="row" ng-if="!state.current.name.includes('app.customer')">
-  <legend class="col-md-12 col-sm-12">Cliente</legend>
-  <div class="col-md-12 col-sm-12">
-    <input type="text" class="form-control"
-      ng-model="vm.search"
-      ng-keyup="vm.autocompleteCustomer(vm.search)">
-  </div>
-  <div class="col-md-12 col-sm-12" ng-if="vm.order.customer.givenName">
-    Cliente: {{ vm.order.customer.givenName }}
-  </div>
-</fieldset>
 
 <fieldset class="row">
   <legend class="col-md-12 col-sm-12">Pedido</legend>

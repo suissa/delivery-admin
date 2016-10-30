@@ -13,7 +13,7 @@ describe('notification.directive', function () {
   }));
 
   it('#init', function() {
-    element = getElement(compile, $scope, '<blz-notification></blz-notification>');
+    element = getElement(compile, $scope, '<app-notification></app-notification>');
     $rootScope.$apply($rootScope.$broadcast('notificationChannel', { title: 'customer' }));
 
     $scope.$apply();

@@ -3,11 +3,10 @@
 describe('notification.service', function () {
   beforeEach(module('app'));
 
-  var $rootScope, service;
+  var service;
 
   beforeEach(inject(before));
-  beforeEach(inject(function(_$rootScope_, NotificationService) {
-    $rootScope = _$rootScope_;
+  beforeEach(inject(function(NotificationService) {
     service = NotificationService;
   }));
 
