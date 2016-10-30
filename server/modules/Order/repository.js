@@ -1,7 +1,3 @@
-const mongoose = require('../../config/MongooseConfig.js')
-const schema = require('./schema')
-const name = 'Order'
+const config = require('./config')
 
-const Repository  = mongoose.model(name, schema)
-
-module.exports = Repository
+module.exports = require('mongoose').model(config.NAME, require(config.SCHEMA))
