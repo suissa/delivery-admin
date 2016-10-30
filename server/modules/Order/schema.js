@@ -1,6 +1,4 @@
-const mongoose = require('mongoose')
-const config = require('./config')
-const name = require(config.FIELDS_PATH + 'name')
+const mongoose = require('../../config/MongooseConfig')
 
 const OrderSchema = mongoose.Schema({
   _customer: { type: mongoose.Schema.Types.ObjectId, required: true, ref: 'Customer' },
@@ -11,12 +9,12 @@ const OrderSchema = mongoose.Schema({
   },
   createdAt: { type: Date, default: Date.now },
   items: [{
-    name,
+    name: { type: String },
     price: { type: Number },
     quantity: { type: Number }
   }],
   gifts: [{
-    name,
+    name: { type: String },
     price: { type: Number },
     quantity: { type: Number }
   }],
@@ -34,7 +32,7 @@ const OrderSchema = mongoose.Schema({
   },
   origin: {
     _externalId: { type: String },
-    name
+    name: { type: String }
   },
   shippingAddress: {
     streetAddress: { type: String },

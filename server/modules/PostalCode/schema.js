@@ -1,6 +1,6 @@
-const mongoose = require('mongoose')
+const mongoose = require('../../config/MongooseConfig')
 
-const _schema = mongoose.Schema({
+const PostalCodeSchema = mongoose.Schema({
   postalCode: { type: Number, maxlength: 8 },
   streetAddress: { type: String },
   addressLocality: { type: String },
@@ -10,4 +10,4 @@ const _schema = mongoose.Schema({
 })
 
 
-module.exports = _schema
+module.exports = PostalCodeSchema

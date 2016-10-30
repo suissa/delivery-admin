@@ -65,6 +65,7 @@ const ROUTES = './routes'
 const REPOSITORY = './repository'
 const NAME = __dirname.split('/').reverse()[0] // 'Customer'
 
+
 module.exports = {
   SCHEMA,
   NAME,
@@ -200,24 +201,6 @@ repository.find(query).lean().limit(size).skip(size * (page - 1))
 ```
 
 Por mais que estejamos fazendo a busca com um `limit` definido ela ainda sim será mais rápida do que sem o `lean`. Caso você não utilize o `limit` na sua função de `list` a utilização do `lean` é **mais que obrigatória**.
-
-#### Schema
-
-```js
-const mongoose = require('mongoose')
-
-const _schema = mongoose.Schema({
-  name: { type: String, trim: true, required: true },
-  price: { type: Number, required: true },
-  gift: { type: Boolean }
-});
-
-// Usamos o _schema pois podemos adicionar mais
-// funcionalidades como methods, virtuals, etc
-
-module.exports = _schema
-```
-#### Atomic Design
 
 **Refatoração NÃO OBRIGATÓRIA!!!**
 
