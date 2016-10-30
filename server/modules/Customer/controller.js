@@ -2,7 +2,7 @@ const config = require('./config')
 
 const bluebird = require('bluebird');
 const debug = require('debug')('delivery-admin:controller:customer');
-const repository = config.repository;
+const repository = config.REPOSITORY;
 const PER_PAGE = 10;
 
 const CustomerController = {
