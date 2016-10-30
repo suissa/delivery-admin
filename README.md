@@ -20,8 +20,8 @@ $ npm i; bower i
 ```
 
 ```
-$ mongoimport -d delivery-admin -c postalcodes --type csv  --file ~/Downloads/ceps.csv --headerline
-$ mongoimport --host localhost --port 27017 -u delivery-admmin -d delivery-admmin -c postalcodes --type csv  --file ./ceps.csv --headerline -p ...
+$ mongoimport -d delivery-admin -c postalcodes --type csv  --file ./scripts/ceps.csv --headerline
+$ mongoimport --host localhost --port 27017 -u delivery-admmin -d delivery-admmin -c postalcodes --type csv  --file ./scripts/ceps.csv --headerline -p ...
 ```
 
 # Run application

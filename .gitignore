@@ -3,3 +3,4 @@ coverage*
 bower_components
 #assets
 node_modules
+*.min.*
