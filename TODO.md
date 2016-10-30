@@ -151,7 +151,30 @@ router.use('/referencePoints', require(MODULES_PATH + 'ReferencePoint/routes'));
 module.exports = router;
 ```
 
-Porém é mais interessante fazer uma função para ler todos os `routes.js` dentro de `modules/*` e gerar essas rotas para que não precisemos adicioná-las manualmente em nenhum lugar.
+*ps: é mais interessante fazer uma função para ler todos os `routes.js` dentro de `modules/*` e gerar essas rotas para que não precisemos adicioná-las manualmente em nenhum lugar.
+*
+
+E a rota de cada módulo ficará assim:
+
+```js
+const config = require('./config')
+const router = require('express').Router()
+
+router.get('/', config.CONTROLLER.list)
+router.get('/:_id', config.CONTROLLER.byId)
+router.post('/', config.CONTROLLER.create)
+router.put('/:_id', config.CONTROLLER.update)
+router.delete('/:_id', config.CONTROLLER.remove)
+
+module.exports = router
+```
+
+> Percebeu o quão genérico é?
+
+Pois bem, esse arquivo de rotas **será igual para todos os módulos**, no início quando temos apenas o CRUD, além do mais podemos transformar essas rotas em um JSON para separar as rotas do *framework* que estamos utiizando.
+
+> Essa refatoração fica mais para frente. ;)
+
 
 ### Mongoose
 
