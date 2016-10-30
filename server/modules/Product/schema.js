@@ -1,10 +1,10 @@
-'use strict';
+const mongoose = require('../config/MongooseConfig');
+const config = require('config')
 
-let mongoose = require('../config/MongooseConfig');
-
+const name = require(config.FIELDS_PATH + 'name')
 
 let ProductSchema = mongoose.Schema({
-  name: { type: String, trim: true, required: true },
+  name,
   price: { type: Number, required: true },
   gift: { type: Boolean }
 });

@@ -4,7 +4,7 @@ const controller = require('./controller')
 const routes = require('./routes')
 const repository = require('./repository')
 const name = __dirname.split('/').reverse()[0] // 'Customer'
-
+const FIELDS_PATH = '../../fields/'
 
 module.exports = {
   mongoose,
@@ -12,5 +12,6 @@ module.exports = {
   name,
   controller,
   repository,
-  routes
+  routes,
+  FIELDS_PATH
 }
