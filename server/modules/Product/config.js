@@ -1,15 +1,14 @@
-const mongoose = require('../../config/MongooseConfig.js')
-const schema = require('./schema')
-const controller = require('./controller')
-const routes = require('./routes')
-const repository = require('./repository')
-const name = 'Product'
+const SCHEMA = './schema'
+const CONTROLLER = './controller'
+const ROUTES = './routes'
+const REPOSITORY = './repository'
+const NAME = __dirname.split('/').reverse()[0]
+
 
 module.exports = {
-  mongoose,
-  schema,
-  name,
-  controller,
-  repository,
-  routes
+  SCHEMA,
+  NAME,
+  CONTROLLER,
+  REPOSITORY,
+  ROUTES
 }

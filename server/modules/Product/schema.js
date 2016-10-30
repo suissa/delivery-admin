@@ -1,13 +1,10 @@
-'use strict';
+const mongoose = require('../../config/MongooseConfig')
 
-let mongoose = require('../config/MongooseConfig');
-
-
-let ProductSchema = mongoose.Schema({
+const ProductSchema = mongoose.Schema({
   name: { type: String, trim: true, required: true },
   price: { type: Number, required: true },
   gift: { type: Boolean }
 });
 
 
-module.exports = ProductSchema;
+module.exports = ProductSchema

@@ -1,4 +1,4 @@
-const mongoose = require('../../config/MongooseConfig');
+const mongoose = require('../../config/MongooseConfig')
 
 const OrderSchema = mongoose.Schema({
   _customer: { type: mongoose.Schema.Types.ObjectId, required: true, ref: 'Customer' },
@@ -48,7 +48,7 @@ const OrderSchema = mongoose.Schema({
       lng: { type: Number }
     }
   }
-});
+})
 
 
-module.exports = OrderSchema;
+module.exports = OrderSchema

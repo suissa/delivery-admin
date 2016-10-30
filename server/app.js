@@ -8,7 +8,7 @@ let express     = require('express'),
     debug       = require('debug')('delivery-admin:app'),
     app         = express();
 
-let AppController = require('./controller/AppController');
+let AppController = require('./modules/App/controller');
 
 
 app.set('json replacer', null);

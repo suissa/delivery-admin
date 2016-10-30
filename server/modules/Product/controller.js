@@ -2,7 +2,7 @@ const config = require('./config')
 
 const bluebird = require('bluebird')
 const debug = require('debug')('delivery-admin:controller:product')
-const repository = config.repository
+const repository = require(config.REPOSITORY)
 const PER_PAGE = 10
 
 let ProductController = {
@@ -38,6 +38,7 @@ let ProductController = {
           page: page
         }
       }
+      console.log('data products', data)
       if (attr === 'items') {
         data = data.items
       }

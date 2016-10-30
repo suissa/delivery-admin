@@ -1,24 +1,24 @@
-'use strict';
+const config = require('./config')
 
-let bluebird = require('bluebird');
-let debug = require('debug')('delivery-admin:controller:order');
-let repository = require('../repository/OrderRepository');
-const PER_PAGE = 10;
+const bluebird = require('bluebird')
+const debug = require('debug')('delivery-admin:controller:order')
+const repository = require(config.REPOSITORY)
+const PER_PAGE = 10
 
 let OrderController = {
   list: function(request, response, next) {
-    let query = {};
-    let page = parseInt(request.query.page || 1, 10);
+    let query = {}
+    let page = parseInt(request.query.page || 1, 10)
 
     if (request.query.q) {
-      let search = new RegExp(request.query.q, 'i');
+      let search = new RegExp(request.query.q, 'i')
       query = {
         $or: [
           { 'customer.givenName': search }
         ]
-      };
+      }
     }
-    debug('query', query);
+    debug('query', query)
 
     bluebird.all([
       repository.find(query)
@@ -28,8 +28,8 @@ let OrderController = {
       repository.count(query)
     ])
     .then(function(results) {
-      let result = results[0];
-      let count = results[1];
+      let result = results[0]
+      let count = results[1]
       let data = {
         items: result,
         _metadata: {
@@ -38,57 +38,57 @@ let OrderController = {
           perPage: PER_PAGE,
           page: page
         }
-      };
+      }
 
-      response.json(data);
+      response.json(data)
     })
-    .catch(next);
+    .catch(next)
   },
   byId: function(request, response, next) {
-    let _id = request.params._id;
+    let _id = request.params._id
     repository.findOne({ _id: _id })
     .populate('_customer')
     .then(function(result) {
       if (!result) {
-        let err = new Error('order not found');
-        err.status = 404;
-        throw err;
+        let err = new Error('order not found')
+        err.status = 404
+        throw err
       }
-      return result;
+      return result
     })
     .then(function(result) {
-      debug('result', result);
-      response.json(result);
+      debug('result', result)
+      response.json(result)
     })
-    .catch(next);
+    .catch(next)
   },
   create: function(request, response, next) {
-    let order = new repository(request.body);
+    let order = new repository(request.body)
     order.save()
       .then(function(result) {
-        response.status(201).json(result);
+        response.status(201).json(result)
       })
       .catch(function(err) {
-        err.status = 422;
-        next(err);
-      });
+        err.status = 422
+        next(err)
+      })
   },
   update: function(request, response, next) {
-    let _id = request.params._id;
+    let _id = request.params._id
     repository.update({ _id: _id }, { $set: request.body })
     .then(function(result) {
-      response.json(result);
+      response.json(result)
     })
-    .catch(next);
+    .catch(next)
   },
   remove: function(request, response, next) {
-    let _id = request.params._id;
+    let _id = request.params._id
     repository.remove({ _id: _id })
     .then(function(result) {
-      response.sendStatus(204);
+      response.sendStatus(204)
     })
-    .catch(next);
+    .catch(next)
   }
-};
+}
 
-module.exports = OrderController;
+module.exports = OrderController

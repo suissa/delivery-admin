@@ -1,10 +1,9 @@
-'use strict';
+const config = require('./config')
+const Controller = require(config.CONTROLLER)
+const router = require('express').Router()
 
-let router              = require('express').Router(),
-    PostalCodeController  = require('../../controller/PostalCodeController');
 
-
-router.get('/referencePoint', PostalCodeController.findReferencePoint);
-router.get('/:postalCode', PostalCodeController.findByPostalCode);
+router.get('/referencePoint', Controller.findReferencePoint);
+router.get('/:postalCode', Controller.findByPostalCode);
 
 module.exports = router;

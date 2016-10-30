@@ -178,6 +178,22 @@ Pois bem, esse arquivo de rotas **será igual para todos os módulos**, no iníc
 
 ### Mongoose
 
+O Mongoose possui uma funcionalidade interessante para melhorarmos o desempenho de algumas buscas, é o [lean](http://www.tothenew.com/blog/high-performance-find-query-using-lean-in-mongoose-2/) que simplesmente retorna o resultado como JSON puro e não atrelado de funcionalidades do *Model*, por isso iremos **SEMPRE** adiciona-lo na função `list` do nosso CRUD.
+
+O código no *Controller* está assim:
+
+```js
+repository.find(query).limit(size).skip(size * (page - 1))
+```
+
+E deverá ficar assim:
+
+```js
+repository.find(query).lean().limit(size).skip(size * (page - 1))
+```
+
+Por mais que estejamos fazendo a busca com um `limit` definido ela ainda sim será mais rápida do que sem o `lean`. Caso você não utilize o `limit` na sua função de `list` a utilização do `lean` é **mais que obrigatória**.
+
 **Refatoração NÃO OBRIGATÓRIA!!!**
 
 > É aqui onde o Atomic Design, by Suissa, entra!
