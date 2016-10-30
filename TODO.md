@@ -88,7 +88,7 @@ const name = config.NAME
 module.exports = mongoose.model(name, schema)
 ```
 
-Refatorando mais um pouquinho podemos deixar assim:
+**Refatorando mais um pouquinho podemos deixar assim:**
 
 ```js
 const config = require('./config')
