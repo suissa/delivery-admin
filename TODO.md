@@ -1,11 +1,16 @@
 # To Do
 
-Vou utilizar como padrão de código o [Standard](http://standardjs.com/), logo teremos que refatorar:
+Irei refatorar, explicando, esse belo repositório do meu grande broder [wbruno](https://github.com/wbruno/). 
 
-- não utilização do `;`
+Aproveitando que esse projeto está bem completo podemos ainda sim melhora-lo para deixar para vocês uma base bem modular para inciarem qualquer projeto em MEAN.
+
+Utilizareos como padrão de código o [Standard](http://standardjs.com/), logo teremos que refatorar:
+
+- não utilizar o `;`
 - definição de variáveis sendo 1 por linha
+- utilizar arrow functions
 
-Por exemplo como está:
+Por exemplo, como está:
 
 ```js
 'use strict';

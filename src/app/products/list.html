@@ -25,6 +25,7 @@
 
 <p ng-if="!vm.data.items.length">Nenhum produto encontrado</p>
 
+<h2>Q: {{vm.q}}</h2>
 <table class="table" ng-if="vm.data.items.length">
   <thead>
     <tr>
@@ -34,7 +35,7 @@
   </thead>
   <tbody>
     <tr class="pointer"
-      ng-repeat="product in vm.data.items"
+      ng-repeat="product in vm.data.items | filter:vm.q"
       ng-click="state.go('app.product', { id: product._id })">
       <td>{{ product.name }}</td>
       <td>{{ product.price | currency }}</td>
