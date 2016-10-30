@@ -11,7 +11,6 @@ Utilizareos como padrão de código o [Standard](http://standardjs.com/), logo t
 - utilizar arrow functions
 
 Por exemplo, como está:
-
 ```js
 'use strict';
 
